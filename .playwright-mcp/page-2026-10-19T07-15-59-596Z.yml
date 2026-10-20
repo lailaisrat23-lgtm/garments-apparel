@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e6]: About Garment Works
+      - heading "A sourcing concept built around clearer conversations." [level=1] [ref=e7]
+      - paragraph [ref=e8]: Garment Works is a fictional portfolio demonstration exploring how buyers and apparel production teams might collaborate from an initial brief through shipment preparation.
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - paragraph [ref=e12]: Our point of view
+          - heading "Good production starts with shared understanding." [level=2] [ref=e13]
+        - paragraph [ref=e14]: This concept brings product requirements, material discussions, sampling, and order milestones into one buyer-oriented experience. It is not a real manufacturer or sourcing business.
+      - generic [ref=e15]:
+        - article [ref=e16]:
+          - paragraph [ref=e17]: Mission
+          - heading "Make the process easier to understand." [level=3] [ref=e18]
+          - paragraph [ref=e19]: Show the kinds of decisions, information, and checkpoints that can help teams align on an apparel brief.
+        - article [ref=e20]:
+          - paragraph [ref=e21]: Vision
+          - heading "Put useful details within reach." [level=3] [ref=e22]
+          - paragraph [ref=e23]: Demonstrate a clear, connected digital experience for product exploration, inquiry, and simulated order visibility.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: A considered approach
+        - heading "From product idea to shipment readiness." [level=2] [ref=e28]
+        - paragraph [ref=e29]: Every real order depends on its own specification, capacity, approvals, and commercial terms. The steps below are illustrative, not a promise of service or timing.
+        - link "Explore the workflow" [ref=e30] [cursor=pointer]:
+          - /url: capabilities.html
+          - text: Explore the workflow
+          - generic [aria-hidden] [ref=e31]: →
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - generic [ref=e34]: "01"
+          - generic [ref=e35]:
+            - heading "Brief & discovery" [level=3] [ref=e36]
+            - paragraph [ref=e37]: Clarify the product, intended market, and requirements.
+        - listitem [ref=e38]:
+          - generic [ref=e39]: "02"
+          - generic [ref=e40]:
+            - heading "Materials & development" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Discuss fabric, trims, construction, and available options.
+        - listitem [ref=e43]:
+          - generic [ref=e44]: "03"
+          - generic [ref=e45]:
+            - heading "Sampling & review" [level=3] [ref=e46]
+            - paragraph [ref=e47]: Evaluate a sample against agreed specifications before production planning.
+        - listitem [ref=e48]:
+          - generic [ref=e49]: "04"
+          - generic [ref=e50]:
+            - heading "Production & checkpoints" [level=3] [ref=e51]
+            - paragraph [ref=e52]: Coordinate production stages, quality review, and packing details.
+        - listitem [ref=e53]:
+          - generic [ref=e54]: "05"
+          - generic [ref=e55]:
+            - heading "Export preparation" [level=3] [ref=e56]
+            - paragraph [ref=e57]: Organize shipment information for the buyer and relevant service providers.
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: Demo notice
+        - heading "All company details are fictional." [level=2] [ref=e62]
+      - paragraph [ref=e63]: No team, facility, production capacity, quality certification, or buyer relationship is represented as verified. Any figures, dates, and product specifications shown across this site are sample content only.
+      - link "Preview the inquiry form" [ref=e64] [cursor=pointer]:
+        - /url: contact.html
+        - text: Preview the inquiry form
+        - generic [aria-hidden] [ref=e65]: →

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buyer Portal Demo | Garment Works</title>
+  <meta name="description" content="Explore a fictional buyer dashboard with simulated sample orders, milestones, pending review actions, and status filtering.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Buyer Portal Demo | Garment Works">
+  <meta property="og:description" content="A static, unauthenticated apparel buyer dashboard portfolio demonstration.">
+  <link rel="canonical" href="https://example.com/garment-works/buyer-portal">
+  <link rel="icon" href="../../../public/assets/icons/garment-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../public/css/style.css">
+  <script src="../../../public/js/data.js" defer></script>
+  <script src="../../../public/js/main.js" defer></script>
+  <script src="../../../public/js/navigation.js" defer></script>
+  <script src="../../../public/js/buyer-portal.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="site-announcement"></div><div id="site-header"></div>
+  <main id="main-content" data-buyer-dashboard>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Buyer workspace preview</p><h1>A clearer view of every sample order.</h1><p>This static dashboard uses fictional order data. There is no login, buyer account, saved approval, or connection to a real shipment service.</p></div></section>
+    <section class="section">
+      <div class="container dashboard">
+        <aside class="dashboard-notice" aria-label="Demonstration notice">
+          <div><p class="eyebrow">Preview account</p><h2>Sample Apparel Studio</h2><p>Fictional buyer profile · Dashboard data is illustrative and available to every visitor.</p></div>
+          <a class="button button--quiet" href="order-tracking.html">Open order tracking</a>
+        </aside>
+        <section class="dashboard-stats" aria-label="Order summary">
+          <article class="dashboard-stat"><p>Total sample orders</p><strong data-metric-total>0</strong></article>
+          <article class="dashboard-stat"><p>In production</p><strong data-metric-production>0</strong></article>
+          <article class="dashboard-stat"><p>Pending approvals</p><strong data-metric-approvals>0</strong></article>
+          <article class="dashboard-stat"><p>Completed / dispatched</p><strong data-metric-completed>0</strong></article>
+        </section>
+        <section class="dashboard-panel" aria-labelledby="dashboard-orders-title">
+          <div class="dashboard-panel__heading"><div><p class="eyebrow">Sample order overview</p><h2 id="dashboard-orders-title">Recent orders</h2></div><p data-dashboard-order-count></p></div>
+          <div class="dashboard-toolbar">
+            <label for="dashboard-status-filter">Filter by status</label>
+            <select id="dashboard-status-filter" data-dashboard-status-filter><option value="">All statuses</option></select>
+          </div>
+          <p class="form-feedback" data-dashboard-result-count aria-live="polite"></p>
+          <div class="dashboard-table-wrap">
+            <table class="dashboard-table">
+              <caption class="sr-only">Fictional buyer order status and estimated shipment dates</caption>
+              <thead><tr><th scope="col">Order</th><th scope="col">Product</th><th scope="col">Status</th><th scope="col">Estimated shipment</th><th scope="col">Details</th></tr></thead>
+              <tbody data-dashboard-orders></tbody>
+            </table>
+          </div>
+          <article class="dashboard-detail" data-dashboard-details hidden aria-live="polite"></article>
+        </section>
+        <section class="dashboard-panel" aria-labelledby="dashboard-approvals-title">
+          <div class="dashboard-panel__heading"><div><p class="eyebrow">Buyer actions</p><h2 id="dashboard-approvals-title">Sample approvals</h2></div></div>
+          <div class="dashboard-action-list" data-approval-list></div>
+          <p class="empty-state" data-no-approvals hidden>No sample approvals are pending in this demo.</p>
+          <p class="form-feedback" data-approval-feedback role="status" aria-live="polite"></p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

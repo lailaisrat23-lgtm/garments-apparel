@@ -1,0 +1,76 @@
+- generic [ref=f6e1]:
+  - link "Skip to content" [ref=f6e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f6e5]:
+    - paragraph [ref=f6e6]: Garment Works is a fictional portfolio demonstration.
+    - link "Explore sourcing categories" [ref=f6e7] [cursor=pointer]:
+      - /url: products.html
+      - text: Explore sourcing categories →
+  - banner [ref=f6e9]:
+    - generic [ref=f6e10]:
+      - link "Garment Works home" [ref=f6e11] [cursor=pointer]:
+        - /url: home.html
+        - generic [aria-hidden] [ref=f6e12]: GW
+        - generic [ref=f6e13]: garmentworks
+      - navigation "Primary navigation" [ref=f6e14]:
+        - link "Home" [ref=f6e15] [cursor=pointer]:
+          - /url: home.html
+        - link "About" [ref=f6e16] [cursor=pointer]:
+          - /url: home.html#about
+        - link "Products" [ref=f6e17] [cursor=pointer]:
+          - /url: products.html
+        - link "Capabilities" [ref=f6e18] [cursor=pointer]:
+          - /url: home.html#capabilities
+        - link "Sustainability" [ref=f6e19] [cursor=pointer]:
+          - /url: home.html#sustainability
+        - link "Track order" [ref=f6e20] [cursor=pointer]:
+          - /url: order-tracking.html
+        - link "Talk to our team" [ref=f6e21] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=f6e22]:
+    - generic [ref=f6e24]:
+      - paragraph [ref=f6e25]: Order visibility
+      - heading "Track a sample order." [level=1] [ref=f6e26]
+      - paragraph [ref=f6e27]: See how a clear milestone view could support your team from development to dispatch.
+    - generic [ref=f6e30]:
+      - generic [ref=f6e31]: Demo order number
+      - generic [ref=f6e32]:
+        - textbox "Demo order number" [active] [invalid] [ref=f6e33]:
+          - /placeholder: e.g. GW-24018
+          - text: INVALID
+        - button "Find order" [ref=f6e34] [cursor=pointer]
+      - paragraph [ref=f6e35]: Try GW-24018, GW-24027, or GW-23981.
+      - button "Use example order GW-24018" [ref=f6e36] [cursor=pointer]
+      - status [ref=f6e37]: We couldn't find that demo order. Check the number or try GW-24018.
+  - contentinfo [ref=f6e39]:
+    - generic [ref=f6e40]:
+      - generic [ref=f6e41]:
+        - generic [ref=f6e42]:
+          - link "garmentworks" [ref=f6e43] [cursor=pointer]:
+            - /url: home.html
+            - generic [aria-hidden] [ref=f6e44]: GW
+          - paragraph [ref=f6e46]: A portfolio concept for thoughtful apparel sourcing and manufacturing conversations.
+        - generic [ref=f6e47]:
+          - heading "Explore" [level=2] [ref=f6e48]
+          - list [ref=f6e49]:
+            - listitem [ref=f6e50]:
+              - link "Product catalog" [ref=f6e51] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=f6e52]:
+              - link "Capabilities" [ref=f6e53] [cursor=pointer]:
+                - /url: home.html#capabilities
+            - listitem [ref=f6e54]:
+              - link "Order tracking demo" [ref=f6e55] [cursor=pointer]:
+                - /url: order-tracking.html
+        - generic [ref=f6e56]:
+          - heading "Connect" [level=2] [ref=f6e57]
+          - list [ref=f6e58]:
+            - listitem [ref=f6e59]:
+              - link "Buyer inquiries" [ref=f6e60] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f6e61]:
+              - link "About the concept" [ref=f6e62] [cursor=pointer]:
+                - /url: home.html#about
+      - generic [ref=f6e63]:
+        - paragraph [ref=f6e64]: Fictional company and illustrative content. No real orders, messages, or shipment updates are processed.
+        - paragraph [ref=f6e65]: © 2026 Garment Works portfolio demo

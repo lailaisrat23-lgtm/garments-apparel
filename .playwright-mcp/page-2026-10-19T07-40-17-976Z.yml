@@ -1,0 +1,129 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip to content" [ref=f9e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f9e5]:
+    - paragraph [ref=f9e6]: Garment Works is a fictional portfolio demonstration.
+    - link "Explore sourcing categories" [ref=f9e7] [cursor=pointer]:
+      - /url: products.html
+      - text: Explore sourcing categories →
+  - banner [ref=f9e9]:
+    - generic [ref=f9e10]:
+      - link "Garment Works home" [ref=f9e11] [cursor=pointer]:
+        - /url: home.html
+        - generic [aria-hidden] [ref=f9e12]: GW
+        - generic [ref=f9e13]: garmentworks
+      - navigation "Primary navigation" [ref=f9e14]:
+        - link "Home" [ref=f9e15] [cursor=pointer]:
+          - /url: home.html
+        - link "About" [ref=f9e16] [cursor=pointer]:
+          - /url: about.html
+        - link "Products" [ref=f9e17] [cursor=pointer]:
+          - /url: products.html
+        - link "Capabilities" [ref=f9e18] [cursor=pointer]:
+          - /url: capabilities.html
+        - link "Sustainability" [ref=f9e19] [cursor=pointer]:
+          - /url: sustainability.html
+        - link "Track order" [ref=f9e20] [cursor=pointer]:
+          - /url: order-tracking.html
+        - link "Talk to our team" [ref=f9e21] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=f9e22]:
+    - generic [ref=f9e24]:
+      - paragraph [ref=f9e25]: Order visibility
+      - heading "Track a sample order." [level=1] [ref=f9e26]
+      - paragraph [ref=f9e27]: See how a clear milestone view could support your team from development to dispatch.
+    - generic [ref=f9e29]:
+      - generic [ref=f9e30]:
+        - generic [ref=f9e31]: Demo order number
+        - generic [ref=f9e32]:
+          - textbox "Demo order number" [ref=f9e33]:
+            - /placeholder: e.g. GW-24018
+            - text: GW-24027
+          - button "Find order" [ref=f9e34] [cursor=pointer]
+        - paragraph [ref=f9e35]: Try GW-24018, GW-24027, or GW-23981.
+        - button "Use example order GW-24018" [ref=f9e36] [cursor=pointer]
+        - status [ref=f9e37]
+      - article [ref=f9e38]:
+        - heading "Order GW-24027" [level=2] [ref=f9e39]
+        - paragraph [ref=f9e40]: All order, shipment, and date information below is simulated for this portfolio demo.
+        - generic [ref=f9e41]:
+          - generic [ref=f9e42]:
+            - term [ref=f9e43]: Product
+            - definition [ref=f9e44]: Everyday poplin shirt
+          - generic [ref=f9e45]:
+            - term [ref=f9e46]: Quantity
+            - definition [ref=f9e47]: 1,200 pcs
+          - generic [ref=f9e48]:
+            - term [ref=f9e49]: Buyer reference
+            - definition [ref=f9e50]: ATELIER-HW-12
+          - generic [ref=f9e51]:
+            - term [ref=f9e52]: Current status
+            - definition [ref=f9e53]: Purchase order confirmed
+          - generic [ref=f9e54]:
+            - term [ref=f9e55]: Estimated shipment
+            - definition [ref=f9e56]: 09 December 2026
+          - generic [ref=f9e57]:
+            - term [ref=f9e58]: Destination
+            - definition [ref=f9e59]: Hamburg, Germany
+        - heading "Order activity" [level=3] [ref=f9e60]
+        - list [ref=f9e61]:
+          - listitem [ref=f9e62]:
+            - heading "Inquiry received" [level=4] [ref=f9e63]
+            - time [ref=f9e64]: 22 September 2026
+            - paragraph [ref=f9e65]: Product brief received.
+          - listitem [ref=f9e66]:
+            - heading "Sample development" [level=4] [ref=f9e67]
+            - time [ref=f9e68]: 01 October 2026
+            - paragraph [ref=f9e69]: A sample is being prepared for review.
+          - listitem [ref=f9e70]:
+            - heading "Sample approved" [level=4] [ref=f9e71]
+            - time [ref=f9e72]: 12 October 2026
+            - paragraph [ref=f9e73]: Approval is simulated for this demonstration.
+          - listitem [ref=f9e74]:
+            - heading "Purchase order confirmed" [level=4] [ref=f9e75]
+            - time [ref=f9e76]: 17 October 2026
+            - paragraph [ref=f9e77]: Order details prepared for production.
+  - contentinfo [ref=f9e79]:
+    - generic [ref=f9e80]:
+      - generic [ref=f9e81]:
+        - generic [ref=f9e82]:
+          - link "garmentworks" [ref=f9e83] [cursor=pointer]:
+            - /url: home.html
+            - generic [aria-hidden] [ref=f9e84]: GW
+          - paragraph [ref=f9e86]: A portfolio concept for thoughtful apparel sourcing and manufacturing conversations.
+        - generic [ref=f9e87]:
+          - heading "Explore" [level=2] [ref=f9e88]
+          - list [ref=f9e89]:
+            - listitem [ref=f9e90]:
+              - link "About the concept" [ref=f9e91] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f9e92]:
+              - link "Product catalog" [ref=f9e93] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=f9e94]:
+              - link "Manufacturing capabilities" [ref=f9e95] [cursor=pointer]:
+                - /url: capabilities.html
+            - listitem [ref=f9e96]:
+              - link "Sourcing considerations" [ref=f9e97] [cursor=pointer]:
+                - /url: sustainability.html
+            - listitem [ref=f9e98]:
+              - link "Order tracking demo" [ref=f9e99] [cursor=pointer]:
+                - /url: order-tracking.html
+            - listitem [ref=f9e100]:
+              - link "Buyer portal preview" [ref=f9e101] [cursor=pointer]:
+                - /url: buyer-portal.html
+        - generic [ref=f9e102]:
+          - heading "Connect" [level=2] [ref=f9e103]
+          - list [ref=f9e104]:
+            - listitem [ref=f9e105]:
+              - link "Buyer inquiries" [ref=f9e106] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f9e107]:
+              - link "Privacy notice" [ref=f9e108] [cursor=pointer]:
+                - /url: privacy-policy.html
+            - listitem [ref=f9e109]:
+              - link "Terms of use" [ref=f9e110] [cursor=pointer]:
+                - /url: terms-of-use.html
+      - generic [ref=f9e111]:
+        - paragraph [ref=f9e112]: Fictional company and illustrative content. No real orders, messages, or shipment updates are processed.
+        - paragraph [ref=f9e113]: © 2026 Garment Works portfolio demo

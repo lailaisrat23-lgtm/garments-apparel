@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Tracking Demo | Garment Works</title>
+  <meta name="description" content="Preview a simulated apparel order tracking journey with sample milestones and shipment details.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Order Tracking Demo | Garment Works">
+  <meta property="og:description" content="A simulated order lookup for the Garment Works portfolio concept.">
+  <link rel="canonical" href="https://example.com/garment-works/order-tracking">
+  <link rel="icon" href="../../../public/assets/icons/garment-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../public/css/style.css">
+  <script src="../../../public/js/data.js" defer></script>
+  <script src="../../../public/js/main.js" defer></script>
+  <script src="../../../public/js/navigation.js" defer></script>
+  <script src="../../../public/js/order-tracking.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="site-announcement"></div><div id="site-header"></div>
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container"><p class="eyebrow">Order visibility</p><h1>Track a sample order.</h1><p>See how a clear milestone view could support your team from development to dispatch.</p></div>
+    </section>
+    <section class="section">
+      <div class="container tracking-layout">
+        <form class="tracking-search" data-tracking-form>
+          <label for="order-id">Demo order number</label>
+          <div class="tracking-search__row"><input id="order-id" name="order-id" type="text" autocomplete="off" placeholder="e.g. GW-24018" aria-describedby="tracking-help tracking-feedback" required><button class="button" type="submit">Find order</button></div>
+          <p id="tracking-help">Try GW-24018, GW-24027, or GW-23981.</p>
+          <button class="text-button" type="button" data-example-order>Use example order GW-24018</button>
+          <p class="form-feedback" id="tracking-feedback" data-tracking-feedback role="status" aria-live="polite"></p>
+        </form>
+        <article class="tracking-result" data-tracking-result aria-live="polite" hidden></article>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

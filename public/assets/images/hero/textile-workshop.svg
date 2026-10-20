@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of an apparel production floor</title>
+  <desc id="desc">A calm, sunlit garment workshop with sewing stations, fabric rolls, and finished apparel.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1">
+      <stop stop-color="#e8eee9"/>
+      <stop offset="1" stop-color="#cbd7d0"/>
+    </linearGradient>
+    <linearGradient id="floor" x2="0" y2="1">
+      <stop stop-color="#c6b9a6"/>
+      <stop offset="1" stop-color="#8c806f"/>
+    </linearGradient>
+    <linearGradient id="window" x2="1" y2="1">
+      <stop stop-color="#f7fbf4"/>
+      <stop offset="1" stop-color="#b8d1cb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="820" fill="url(#wall)"/>
+  <path d="M0 470h1200v350H0z" fill="url(#floor)"/>
+  <path d="M72 64h458v300H72z" fill="#a7b8ae"/>
+  <path d="M94 86h198v255H94zM310 86h198v255H310z" fill="url(#window)"/>
+  <path d="M290 86v255M94 214h414" stroke="#82968c" stroke-width="12"/>
+  <path d="M0 388h1200" stroke="#f0e9dc" stroke-width="22"/>
+  <path d="M615 126h490v230H615z" fill="#d9e1db"/>
+  <path d="M647 158h196v166H647zM869 158h204v166H869z" fill="#b6c9c2"/>
+  <path d="M846 158v166" stroke="#edf1e9" stroke-width="12"/>
+  <g fill="#344f49">
+    <path d="M153 469h260l30 62H127z"/>
+    <path d="M174 531h220v93H174z"/>
+    <path d="M705 461h310l26 69H678z"/>
+    <path d="M738 530h244v105H738z"/>
+  </g>
+  <g fill="#d2a76f">
+    <path d="M188 449h106v20H188zM741 441h127v20H741z"/>
+    <circle cx="231" cy="418" r="29"/><circle cx="310" cy="418" r="29"/>
+    <circle cx="789" cy="407" r="29"/><circle cx="884" cy="407" r="29"/>
+  </g>
+  <g fill="#f3eee3">
+    <path d="M231 445l-45 32 17 15 44-25zM310 445l45 32-17 15-44-25z"/>
+    <path d="M789 434l-53 34 18 15 51-27zM884 434l55 34-18 15-52-27z"/>
+  </g>
+  <g fill="#e7d5b8">
+    <path d="M80 670h192l35 40H55z"/><path d="M331 690h194l30 38H305z"/>
+    <path d="M897 674h200l34 43H872z"/>
+  </g>
+  <g fill="#a77f5d">
+    <path d="M102 617h142v48H102z"/><path d="M357 638h146v44H357z"/>
+    <path d="M924 624h148v49H924z"/>
+  </g>
+  <g fill="#6f8479">
+    <path d="M564 478h26v190h-26zM619 478h26v190h-26z"/>
+    <path d="M543 473h123v18H543z"/>
+  </g>
+  <path d="M0 758h1200v62H0z" fill="#344f49" opacity=".16"/>
+</svg>

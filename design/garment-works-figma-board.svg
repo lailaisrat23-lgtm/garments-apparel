@@ -1,0 +1,379 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2740" height="2650" viewBox="0 0 2740 2650" role="img" aria-labelledby="title description">
+  <title id="title">Garment Works — Apparel Portal design board</title>
+  <desc id="description">A responsive visual direction and page design system for a fictional B2B apparel sourcing and order tracking portal.</desc>
+  <defs>
+    <linearGradient id="hero-art" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d9e4dc"/>
+      <stop offset=".58" stop-color="#aebfb3"/>
+      <stop offset="1" stop-color="#6d8175"/>
+    </linearGradient>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#bf8a62"/>
+      <stop offset="1" stop-color="#754c39"/>
+    </linearGradient>
+    <linearGradient id="soft-green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0f3ec"/>
+      <stop offset="1" stop-color="#d9e4dc"/>
+    </linearGradient>
+    <pattern id="weave" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 3h12M3 0v12" stroke="#fff" stroke-opacity=".22" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#162520" flood-opacity=".12"/>
+    </filter>
+    <style>
+      .board { fill:#eeeae1 }
+      .card { fill:#fbfaf7; stroke:#d9dfd8; stroke-width:2 }
+      .ink { fill:#1d302d }
+      .muted { fill:#61716c }
+      .accent { fill:#9a5d39 }
+      .white { fill:#fff }
+      .line { stroke:#d9dfd8; stroke-width:2 }
+      .tiny { font:600 12px Arial,sans-serif; letter-spacing:1.4px }
+      .small { font:13px Arial,sans-serif }
+      .body { font:15px Arial,sans-serif }
+      .label { font:700 13px Arial,sans-serif }
+      .title { font:600 28px Arial,sans-serif; letter-spacing:-1px }
+      .heading { font:600 42px Arial,sans-serif; letter-spacing:-1.8px }
+      .display { font:600 58px Arial,sans-serif; letter-spacing:-2.8px }
+      .button { fill:#1d302d }
+      .button-text { fill:#fff; font:700 13px Arial,sans-serif }
+      .chip { fill:#e9eee7 }
+      .shadow { filter:url(#shadow) }
+    </style>
+  </defs>
+
+  <rect class="board" width="2740" height="2650"/>
+  <text x="70" y="62" class="tiny accent">GARMENT WORKS  /  DESIGN EXPLORATION</text>
+  <text x="70" y="111" class="ink" style="font:600 38px Arial,sans-serif;letter-spacing:-1.5px">Apparel sourcing, made clearer.</text>
+  <text x="2670" y="69" text-anchor="end" class="tiny muted">PORTFOLIO DEMO · FICTIONAL DATA · RESPONSIVE UI</text>
+  <text x="2670" y="103" text-anchor="end" class="small muted">A considered system for product discovery, inquiry and order visibility</text>
+  <path d="M70 137H2670" class="line"/>
+
+  <!-- Homepage desktop hero -->
+  <g transform="translate(70 170)">
+    <rect width="1740" height="760" rx="18" class="card shadow"/>
+    <text x="28" y="34" class="tiny accent">01 / HOMEPAGE · DESKTOP 1440</text>
+    <g transform="translate(0 52)">
+      <rect width="1740" height="54" fill="#1d302d"/>
+      <text x="34" y="33" class="white" style="font:700 12px Arial,sans-serif">GARMENT WORKS</text>
+      <text x="315" y="33" class="white small">A sourcing concept for global apparel teams</text>
+      <text x="1705" y="33" text-anchor="end" class="white tiny">EXPLORE CATEGORIES  →</text>
+      <rect y="54" width="1740" height="82" fill="#fbfaf7"/>
+      <rect x="34" y="75" width="38" height="38" fill="#1d302d"/>
+      <text x="53" y="100" text-anchor="middle" class="white label">GW</text>
+      <text x="84" y="101" class="ink" style="font:700 20px Arial,sans-serif">garment<tspan fill="#9a5d39" font-weight="400">works</tspan></text>
+      <text x="735" y="101" class="ink small">About</text>
+      <text x="820" y="101" class="ink small">Products</text>
+      <text x="925" y="101" class="ink small">Capabilities</text>
+      <text x="1060" y="101" class="ink small">Sustainability</text>
+      <text x="1210" y="101" class="ink small">Track order</text>
+      <rect x="1455" y="72" width="245" height="46" rx="4" class="button"/>
+      <text x="1577" y="101" text-anchor="middle" class="button-text">START A CONVERSATION  ↗</text>
+
+      <rect y="136" width="1740" height="445" fill="#f1f2ed"/>
+      <text x="70" y="207" class="tiny accent">DEVELOPMENT TO DELIVERY · BANGLADESH + GLOBAL</text>
+      <text x="70" y="282" class="ink display">From first sketch</text>
+      <text x="70" y="347" class="ink display">to finished shipment.</text>
+      <text x="72" y="392" class="muted body">A considered sourcing experience for teams shaping</text>
+      <text x="72" y="416" class="muted body">the next generation of apparel essentials.</text>
+      <rect x="70" y="452" width="205" height="49" rx="4" class="button"/>
+      <text x="172" y="482" text-anchor="middle" class="button-text">EXPLORE PRODUCTS  →</text>
+      <rect x="290" y="452" width="188" height="49" rx="4" fill="none" stroke="#b9c4bb" stroke-width="2"/>
+      <text x="384" y="482" text-anchor="middle" class="ink label">HOW IT WORKS</text>
+      <text x="72" y="538" class="muted" style="font:12px Arial,sans-serif">FICTIONAL COMPANY · ILLUSTRATIVE PRODUCTS, FIGURES AND ORDER DATA</text>
+
+      <rect x="865" y="168" width="805" height="380" rx="8" fill="url(#hero-art)"/>
+      <path d="M865 435h805v113H865z" fill="#425b51" opacity=".72"/>
+      <path d="M905 211h326v170H905z" fill="#e8eee8"/>
+      <path d="M924 229h140v133H924zM1076 229h136v133h-136z" fill="#b8cec5"/>
+      <path d="M1069 229v133M924 292h288" stroke="#7f998d" stroke-width="8"/>
+      <path d="M1270 210h350v171h-350z" fill="#cad8d0"/>
+      <path d="M1290 230h146v130h-146zM1452 230h149v130h-149z" fill="#a9c0b6"/>
+      <path d="M1439 230v130" stroke="#edf1eb" stroke-width="8"/>
+      <path d="M946 409h266l18 27H927zM1290 405h290l22 31h-329z" fill="#324842"/>
+      <path d="M964 436h225v71H964zM1324 436h232v71h-232z" fill="#3c574e"/>
+      <circle cx="1004" cy="393" r="20" fill="#bf8a62"/><circle cx="1067" cy="393" r="20" fill="#bf8a62"/>
+      <circle cx="1386" cy="391" r="20" fill="#bf8a62"/><circle cx="1455" cy="391" r="20" fill="#bf8a62"/>
+      <path d="M1004 417l-37 27 13 11 38-23zM1067 417l38 27-13 11-39-23zM1386 415l-40 28 14 12 41-24zM1455 415l41 28-14 12-42-24z" fill="#f2eee5"/>
+      <path d="M886 511h760" stroke="#fff" stroke-opacity=".6"/>
+      <rect x="900" y="486" width="210" height="48" rx="5" fill="#fbfaf7" filter="url(#shadow)"/>
+      <circle cx="923" cy="510" r="6" fill="#729078"/>
+      <text x="938" y="507" class="ink label">A CLEARER PROCESS</text>
+      <text x="938" y="524" class="muted" style="font:11px Arial,sans-serif">From brief to shipment readiness</text>
+      <rect y="581" width="1740" height="127" fill="#1d302d"/>
+      <text x="70" y="615" fill="#dfb28d" class="tiny">A MORE CONNECTED SOURCING JOURNEY</text>
+      <text x="70" y="657" fill="#fff" style="font:600 22px Arial,sans-serif">One clear view, from product idea to production milestones.</text>
+      <path d="M1070 615v68M1270 615v68M1470 615v68" stroke="#71817a" stroke-width="1"/>
+      <text x="1110" y="642" fill="#fff" style="font:600 24px Arial,sans-serif">05</text>
+      <text x="1110" y="665" fill="#cbd4ce" style="font:12px Arial,sans-serif">PRODUCT VERTICALS</text>
+      <text x="1310" y="642" fill="#fff" style="font:600 24px Arial,sans-serif">01:1</text>
+      <text x="1310" y="665" fill="#cbd4ce" style="font:12px Arial,sans-serif">BUYER COLLABORATION</text>
+      <text x="1510" y="642" fill="#fff" style="font:600 24px Arial,sans-serif">360°</text>
+      <text x="1510" y="665" fill="#cbd4ce" style="font:12px Arial,sans-serif">DEVELOPMENT SUPPORT</text>
+    </g>
+  </g>
+
+  <!-- Mobile hero -->
+  <g transform="translate(1850 170)">
+    <rect width="820" height="760" rx="18" class="card shadow"/>
+    <text x="28" y="34" class="tiny accent">02 / HOMEPAGE · MOBILE 390</text>
+    <g transform="translate(205 58)">
+      <rect width="390" height="654" rx="16" fill="#fbfaf7" stroke="#d9dfd8" stroke-width="2"/>
+      <rect width="390" height="36" rx="16" fill="#1d302d"/>
+      <text x="195" y="23" text-anchor="middle" fill="#fff" style="font:11px Arial,sans-serif">A sourcing concept for global apparel teams</text>
+      <rect y="36" width="390" height="64" fill="#fbfaf7"/>
+      <rect x="18" y="49" width="36" height="36" fill="#1d302d"/>
+      <text x="36" y="72" text-anchor="middle" class="white" style="font:700 11px Arial,sans-serif">GW</text>
+      <text x="64" y="74" class="ink" style="font:700 18px Arial,sans-serif">garment<tspan fill="#9a5d39" font-weight="400">works</tspan></text>
+      <rect x="340" y="53" width="34" height="32" rx="4" fill="none" stroke="#d9dfd8" stroke-width="2"/>
+      <path d="M349 63h16M349 69h16M349 75h16" stroke="#1d302d" stroke-width="2"/>
+      <rect y="100" width="390" height="554" fill="#f1f2ed"/>
+      <text x="23" y="139" class="tiny accent" style="font-size:9px">DEVELOPMENT TO DELIVERY</text>
+      <text x="23" y="195" class="ink" style="font:600 43px Arial,sans-serif;letter-spacing:-2px">From first</text>
+      <text x="23" y="243" class="ink" style="font:600 43px Arial,sans-serif;letter-spacing:-2px">sketch to</text>
+      <text x="23" y="291" class="ink" style="font:600 43px Arial,sans-serif;letter-spacing:-2px">shipment.</text>
+      <text x="24" y="322" class="muted" style="font:13px Arial,sans-serif">A considered sourcing experience for</text>
+      <text x="24" y="341" class="muted" style="font:13px Arial,sans-serif">teams shaping apparel essentials.</text>
+      <rect x="23" y="362" width="344" height="45" rx="4" class="button"/>
+      <text x="195" y="390" text-anchor="middle" class="button-text">EXPLORE PRODUCTS  →</text>
+      <rect x="23" y="418" width="344" height="42" rx="4" fill="none" stroke="#b9c4bb" stroke-width="2"/>
+      <text x="195" y="444" text-anchor="middle" class="ink label">HOW IT WORKS</text>
+      <rect x="23" y="476" width="344" height="122" rx="6" fill="url(#hero-art)"/>
+      <path d="M23 547h344v51H23z" fill="#425b51" opacity=".75"/>
+      <path d="M42 495h122v46H42z" fill="#e7eee7"/>
+      <path d="M49 502h51v32H49zM107 502h50v32h-50z" fill="#adc4b8"/>
+      <path d="M176 534h162v17H176zM192 551h133v26H192z" fill="#344f49"/>
+      <text x="24" y="624" class="muted" style="font:10px Arial,sans-serif">FICTIONAL COMPANY · SAMPLE DATA ONLY</text>
+    </g>
+  </g>
+
+  <!-- Product catalog -->
+  <g transform="translate(70 970)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">03 / PRODUCT CATALOG</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">Products  ·  Capabilities  ·  Track order</text>
+    <rect y="111" width="850" height="105" fill="#f1f2ed"/>
+    <text x="28" y="149" class="tiny accent">A CONSIDERED RANGE</text>
+    <text x="28" y="185" class="title ink">Explore the collection.</text>
+    <text x="490" y="167" class="muted small">Illustrative products, minimums and</text>
+    <text x="490" y="188" class="muted small">lead times. No commercial offer.</text>
+    <rect x="28" y="233" width="794" height="54" rx="5" fill="#fff" stroke="#d9dfd8"/>
+    <text x="46" y="255" class="tiny muted" style="font-size:9px">SEARCH PRODUCTS</text>
+    <text x="46" y="275" class="small ink">Name or reference</text>
+    <path d="M190 233v54M367 233v54M544 233v54M688 233v54" class="line"/>
+    <text x="208" y="255" class="tiny muted" style="font-size:9px">CATEGORY</text><text x="208" y="275" class="small ink">All categories  ▾</text>
+    <text x="385" y="255" class="tiny muted" style="font-size:9px">MATERIAL</text><text x="385" y="275" class="small ink">Any material  ▾</text>
+    <text x="562" y="255" class="tiny muted" style="font-size:9px">MINIMUM ORDER</text><text x="562" y="275" class="small ink">Any MOQ  ▾</text>
+    <text x="28" y="321" class="label ink">8 example products</text><text x="822" y="321" text-anchor="end" class="small muted">Sort: Featured  ▾</text>
+    <g transform="translate(28 340)">
+      <rect width="250" height="137" rx="5" fill="#fff" stroke="#d9dfd8"/>
+      <rect width="250" height="76" rx="5" fill="url(#soft-green)"/>
+      <path d="M106 18l-22 18 11 9-9 26h58l-9-26 11-9-22-18-9 8z" fill="#738d7e"/>
+      <text x="15" y="99" class="tiny accent" style="font-size:9px">KNITWEAR · KN-001</text>
+      <text x="15" y="119" class="label ink">Classic cotton crew tee</text>
+      <text x="15" y="135" class="muted" style="font:10px Arial,sans-serif">Organic cotton · MOQ 1,200 pcs</text>
+      <rect x="272" width="250" height="137" rx="5" fill="#fff" stroke="#d9dfd8"/>
+      <rect x="272" width="250" height="76" rx="5" fill="#e9e2d6"/>
+      <path d="M382 15l-25 20 12 10-8 29h62l-8-29 12-10-25-20-10 8z" fill="#9a7154"/>
+      <text x="287" y="99" class="tiny accent" style="font-size:9px">WOVEN · WV-014</text>
+      <text x="287" y="119" class="label ink">Everyday poplin shirt</text>
+      <text x="287" y="135" class="muted" style="font:10px Arial,sans-serif">Cotton poplin · MOQ 1,000 pcs</text>
+      <rect x="544" width="250" height="137" rx="5" fill="#fff" stroke="#d9dfd8"/>
+      <rect x="544" width="250" height="76" rx="5" fill="#dce4e5"/>
+      <path d="M654 15l-25 20 12 10-8 29h62l-8-29 12-10-25-20-10 8z" fill="#446572"/>
+      <text x="559" y="99" class="tiny accent" style="font-size:9px">DENIM · DN-008</text>
+      <text x="559" y="119" class="label ink">Straight-leg denim</text>
+      <text x="559" y="135" class="muted" style="font:10px Arial,sans-serif">Cotton denim · MOQ 1,800 pcs</text>
+    </g>
+  </g>
+
+  <!-- Product details -->
+  <g transform="translate(950 970)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">04 / PRODUCT DETAILS</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">Products  ·  Capabilities  ·  Track order</text>
+    <text x="30" y="141" class="small muted">Products  /  Denim &amp; jeans  /  DN-008</text>
+    <rect x="30" y="161" width="355" height="292" rx="6" fill="#dce4e5"/>
+    <path d="M145 216l-48 40 22 20-19 139h192l-19-139 22-20-48-40-34 15z" fill="#446572"/>
+    <path d="M145 216l48 15 48-15M193 232v179M119 276h148" stroke="#d2e0e0" stroke-width="3" fill="none"/>
+    <circle cx="192" cy="244" r="4" fill="#e4c7a7"/><circle cx="192" cy="265" r="4" fill="#e4c7a7"/>
+    <text x="30" y="478" class="muted small">DEMO IMAGE · COLOUR AND FIT ARE ILLUSTRATIVE</text>
+    <text x="427" y="172" class="tiny accent">DENIM &amp; JEANS · REFERENCE DN-008</text>
+    <text x="427" y="212" class="title ink">Straight-leg denim</text>
+    <text x="427" y="244" class="muted body">A classic five-pocket fit with wash and trim</text>
+    <text x="427" y="266" class="muted body">options for development discussion.</text>
+    <path d="M427 286h390" class="line"/>
+    <text x="427" y="315" class="tiny muted">MATERIAL</text><text x="618" y="315" class="label ink">Cotton denim</text>
+    <text x="427" y="350" class="tiny muted">ILLUSTRATIVE MINIMUM</text><text x="618" y="350" class="label ink">1,800 pieces</text>
+    <text x="427" y="385" class="tiny muted">ESTIMATED LEAD TIME</text><text x="618" y="385" class="label ink">60–75 days</text>
+    <text x="427" y="420" class="tiny muted">CUSTOMIZATION</text><text x="618" y="420" class="label ink">Fit · wash · hardware</text>
+    <rect x="427" y="440" width="264" height="44" rx="4" class="button"/>
+    <text x="559" y="468" text-anchor="middle" class="button-text">DISCUSS THIS PRODUCT  →</text>
+  </g>
+
+  <!-- Buyer portal -->
+  <g transform="translate(1830 970)">
+    <rect width="840" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">05 / BUYER PORTAL</text>
+    <rect y="49" width="840" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="470" y="87" fill="#fff" class="small">Workspace preview  ·  Sample account</text>
+    <rect x="0" y="111" width="170" height="389" fill="#203a34"/>
+    <text x="24" y="149" fill="#cbd6cd" class="tiny" style="font-size:10px">BUYER WORKSPACE</text>
+    <rect x="15" y="168" width="140" height="37" rx="4" fill="#fff"/>
+    <text x="30" y="192" class="ink label">Overview</text>
+    <text x="30" y="232" fill="#e2e8e2" class="small">Orders</text>
+    <text x="30" y="267" fill="#e2e8e2" class="small">Approvals</text>
+    <text x="30" y="302" fill="#e2e8e2" class="small">Order tracking</text>
+    <text x="30" y="464" fill="#cbd6cd" style="font:10px Arial,sans-serif">FICTIONAL PREVIEW</text>
+    <text x="196" y="151" class="tiny accent">SAMPLE APPAREL STUDIO · DEMO ACCOUNT</text>
+    <text x="196" y="184" class="title ink">Order overview</text>
+    <g transform="translate(196 203)">
+      <rect width="145" height="69" rx="4" fill="#f1f2ed"/><text x="14" y="25" class="muted" style="font:10px Arial,sans-serif">SAMPLE ORDERS</text><text x="14" y="55" class="title ink">04</text>
+      <rect x="155" width="145" height="69" rx="4" fill="#f1f2ed"/><text x="169" y="25" class="muted" style="font:10px Arial,sans-serif">IN PRODUCTION</text><text x="169" y="55" class="title ink">01</text>
+      <rect x="310" width="145" height="69" rx="4" fill="#f1f2ed"/><text x="324" y="25" class="muted" style="font:10px Arial,sans-serif">TO REVIEW</text><text x="324" y="55" class="title ink">01</text>
+      <text x="0" y="104" class="label ink">Recent sample orders</text><text x="455" y="104" text-anchor="end" class="small muted">Filter: All orders  ▾</text>
+      <rect y="117" width="455" height="31" fill="#eef0eb"/>
+      <text x="9" y="138" class="tiny muted" style="font-size:9px">ORDER</text><text x="100" y="138" class="tiny muted" style="font-size:9px">PRODUCT</text><text x="266" y="138" class="tiny muted" style="font-size:9px">STATUS</text><text x="365" y="138" class="tiny muted" style="font-size:9px">SHIPMENT</text>
+      <path d="M0 149h455M0 205h455M0 261h455M0 317h455" class="line"/>
+      <text x="9" y="174" class="label ink">GW-24018</text><text x="100" y="174" class="small ink">Classic cotton crew tee</text><rect x="266" y="158" width="80" height="22" rx="11" fill="#e8eee4"/><text x="306" y="173" text-anchor="middle" class="tiny ink" style="font-size:8px">PRODUCTION</text><text x="365" y="174" class="small ink">18 Nov 2026</text>
+      <text x="9" y="230" class="label ink">GW-24027</text><text x="100" y="230" class="small ink">Everyday poplin shirt</text><rect x="266" y="214" width="80" height="22" rx="11" fill="#f4eadf"/><text x="306" y="229" text-anchor="middle" class="tiny accent" style="font-size:8px">CONFIRMED</text><text x="365" y="230" class="small ink">09 Dec 2026</text>
+      <text x="9" y="286" class="label ink">GW-24031</text><text x="100" y="286" class="small ink">Utility overshirt</text><rect x="266" y="270" width="80" height="22" rx="11" fill="#f4eadf"/><text x="306" y="285" text-anchor="middle" class="tiny accent" style="font-size:8px">TO REVIEW</text><text x="365" y="286" class="small ink">21 Dec 2026</text>
+    </g>
+  </g>
+
+  <!-- Capabilities -->
+  <g transform="translate(70 1510)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">06 / CAPABILITIES</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">About  ·  Products  ·  Capabilities  ·  Contact</text>
+    <rect y="111" width="850" height="114" fill="#f1f2ed"/>
+    <text x="28" y="150" class="tiny accent">DEVELOPMENT TO DELIVERY</text>
+    <text x="28" y="193" class="heading ink">Capabilities connected to your brief.</text>
+    <text x="28" y="260" class="muted body">Illustrative sourcing and production stages. Scope, availability and capacity are project-specific and not verified here.</text>
+    <g transform="translate(28 286)">
+      <rect width="250" height="142" rx="5" fill="#fff" stroke="#d9dfd8"/><text x="16" y="28" class="tiny accent">01</text><text x="16" y="60" class="title ink">Develop</text><text x="16" y="91" class="small muted">Product brief, construction,</text><text x="16" y="111" class="small muted">sampling and fit review.</text>
+      <rect x="272" width="250" height="142" rx="5" fill="#fff" stroke="#d9dfd8"/><text x="288" y="28" class="tiny accent">02</text><text x="288" y="60" class="title ink">Source</text><text x="288" y="91" class="small muted">Material, yarn, fabric, trims</text><text x="288" y="111" class="small muted">and specification discussion.</text>
+      <rect x="544" width="250" height="142" rx="5" fill="#fff" stroke="#d9dfd8"/><text x="560" y="28" class="tiny accent">03</text><text x="560" y="60" class="title ink">Produce</text><text x="560" y="91" class="small muted">Knit, woven, denim, quality</text><text x="560" y="111" class="small muted">checkpoints and packing.</text>
+    </g>
+    <text x="28" y="466" class="muted small">No factory, production capacity or compliance certification is claimed.</text>
+  </g>
+
+  <!-- Sustainability -->
+  <g transform="translate(950 1510)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">07 / SOURCING CONSIDERATIONS</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">About  ·  Products  ·  Sourcing  ·  Contact</text>
+    <rect y="111" width="850" height="125" fill="#dfe8df"/>
+    <text x="28" y="150" class="tiny accent">RESPONSIBLE SOURCING CONVERSATIONS</text>
+    <text x="28" y="194" class="heading ink">Better choices begin with better questions.</text>
+    <text x="28" y="270" class="muted body">Discussion topics, not environmental claims or verified company practices.</text>
+    <g transform="translate(28 294)">
+      <rect width="250" height="74" rx="4" fill="#fff"/><circle cx="28" cy="28" r="12" fill="#dce5dd"/><text x="52" y="31" class="label ink">Material efficiency</text><text x="52" y="53" class="small muted">Utilization · specification</text>
+      <rect x="272" width="250" height="74" rx="4" fill="#fff"/><circle cx="300" cy="28" r="12" fill="#e9e2d6"/><text x="324" y="31" class="label ink">Waste reduction</text><text x="324" y="53" class="small muted">Cut waste · packaging</text>
+      <rect x="544" width="250" height="74" rx="4" fill="#fff"/><circle cx="572" cy="28" r="12" fill="#dce4e5"/><text x="596" y="31" class="label ink">Supply transparency</text><text x="596" y="53" class="small muted">Sites · scope · evidence</text>
+      <rect y="88" width="250" height="74" rx="4" fill="#fff"/><circle cx="28" cy="116" r="12" fill="#e9e2d6"/><text x="52" y="119" class="label ink">Water &amp; energy</text><text x="52" y="141" class="small muted">Process-specific data</text>
+      <rect x="272" y="88" width="250" height="74" rx="4" fill="#fff"/><circle cx="300" cy="116" r="12" fill="#dce5dd"/><text x="324" y="119" class="label ink">Product durability</text><text x="324" y="141" class="small muted">Construction · care</text>
+      <rect x="544" y="88" width="250" height="74" rx="4" fill="#fff"/><circle cx="572" cy="116" r="12" fill="#dce4e5"/><text x="596" y="119" class="label ink">Verifiable goals</text><text x="596" y="141" class="small muted">Baseline · method · review</text>
+    </g>
+    <text x="28" y="479" class="muted small">No certification, audit, environmental performance or target is claimed.</text>
+  </g>
+
+  <!-- Order tracking -->
+  <g transform="translate(1830 1510)">
+    <rect width="840" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">08 / ORDER TRACKING</text>
+    <rect y="49" width="840" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">Products  ·  Buyer portal  ·  Contact</text>
+    <rect y="111" width="840" height="100" fill="#f1f2ed"/>
+    <text x="28" y="149" class="tiny accent">ORDER VISIBILITY · DEMO DATA</text>
+    <text x="28" y="187" class="title ink">Track a sample order.</text>
+    <rect x="28" y="234" width="784" height="62" rx="5" fill="#fff" stroke="#d9dfd8"/>
+    <text x="48" y="258" class="tiny muted" style="font-size:9px">DEMO ORDER NUMBER</text>
+    <text x="48" y="282" class="body ink">GW-24018</text>
+    <rect x="625" y="242" width="171" height="46" rx="4" class="button"/><text x="710" y="271" text-anchor="middle" class="button-text">FIND ORDER  →</text>
+    <rect x="28" y="318" width="784" height="153" rx="5" fill="#fff" stroke="#d9dfd8"/>
+    <text x="48" y="347" class="tiny accent">ORDER GW-24018 · 2,400 PIECES</text>
+    <text x="48" y="380" class="title ink">Production in progress</text>
+    <text x="48" y="408" class="small muted">Classic cotton crew tee · Buyer ref NORTH-SS26-04</text>
+    <text x="48" y="438" class="label ink">Estimated shipment</text><text x="220" y="438" class="small ink">18 November 2026 · Rotterdam</text>
+    <path d="M500 372h260" stroke="#d9dfd8" stroke-width="4"/>
+    <circle cx="500" cy="372" r="8" fill="#738d7e"/><circle cx="565" cy="372" r="8" fill="#738d7e"/><circle cx="630" cy="372" r="8" fill="#738d7e"/><circle cx="695" cy="372" r="8" fill="#9a5d39"/><circle cx="760" cy="372" r="8" fill="#d9dfd8"/>
+    <text x="500" y="398" text-anchor="middle" class="muted" style="font:9px Arial,sans-serif">BRIEF</text><text x="565" y="398" text-anchor="middle" class="muted" style="font:9px Arial,sans-serif">SAMPLE</text><text x="630" y="398" text-anchor="middle" class="muted" style="font:9px Arial,sans-serif">MATERIAL</text><text x="695" y="398" text-anchor="middle" class="accent" style="font:9px Arial,sans-serif">PRODUCTION</text><text x="760" y="398" text-anchor="middle" class="muted" style="font:9px Arial,sans-serif">SHIP</text>
+    <text x="28" y="489" class="muted small">Fictional order record · Dates and shipment status are illustrative.</text>
+  </g>
+
+  <!-- Contact page -->
+  <g transform="translate(70 2050)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">09 / CONTACT &amp; INQUIRY</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">About  ·  Products  ·  Capabilities  ·  Contact</text>
+    <rect y="111" width="850" height="79" fill="#f1f2ed"/>
+    <text x="28" y="145" class="tiny accent">START A CONVERSATION</text><text x="28" y="176" class="title ink">Tell us what you’re building.</text>
+    <text x="28" y="225" class="label ink">A clear brief makes a better start.</text>
+    <text x="28" y="252" class="small muted">Explore a sample buyer inquiry. Your details stay</text><text x="28" y="272" class="small muted">in this browser and are never transmitted.</text>
+    <rect x="28" y="296" width="344" height="108" rx="5" fill="#f1f2ed"/>
+    <text x="47" y="323" class="tiny accent">FICTIONAL SOURCING DESK</text><text x="47" y="349" class="small ink">Dhaka, Bangladesh · Example only</text><text x="47" y="374" class="small ink">No real contact channel is connected.</text>
+    <rect x="403" y="211" width="419" height="256" rx="5" fill="#fff" stroke="#d9dfd8"/>
+    <text x="425" y="239" class="tiny muted">COMPANY NAME</text><rect x="425" y="248" width="175" height="33" rx="3" fill="#fff" stroke="#aebbb1"/>
+    <text x="619" y="239" class="tiny muted">YOUR NAME</text><rect x="619" y="248" width="181" height="33" rx="3" fill="#fff" stroke="#aebbb1"/>
+    <text x="425" y="304" class="tiny muted">BUSINESS EMAIL</text><rect x="425" y="313" width="175" height="33" rx="3" fill="#fff" stroke="#aebbb1"/>
+    <text x="619" y="304" class="tiny muted">PRODUCT INTEREST</text><rect x="619" y="313" width="181" height="33" rx="3" fill="#fff" stroke="#aebbb1"/>
+    <text x="425" y="369" class="tiny muted">TELL US ABOUT YOUR BRIEF</text><rect x="425" y="378" width="375" height="42" rx="3" fill="#fff" stroke="#aebbb1"/>
+    <rect x="425" y="431" width="238" height="32" rx="3" class="button"/><text x="544" y="452" text-anchor="middle" class="button-text">PREVIEW INQUIRY  →</text>
+    <text x="28" y="467" class="muted small">The demo form does not submit or save real information.</text>
+  </g>
+
+  <!-- About page -->
+  <g transform="translate(950 2050)">
+    <rect width="850" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">10 / ABOUT THE CONCEPT</text>
+    <rect y="49" width="850" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">About  ·  Products  ·  Capabilities  ·  Contact</text>
+    <rect y="111" width="850" height="116" fill="#f1f2ed"/>
+    <text x="28" y="149" class="tiny accent">ABOUT GARMENT WORKS</text>
+    <text x="28" y="192" class="heading ink">A sourcing concept built around clearer conversations.</text>
+    <text x="28" y="267" class="muted body">A fictional portfolio demo exploring how buyers and production teams can</text>
+    <text x="28" y="290" class="muted body">align from an initial brief through shipment preparation.</text>
+    <g transform="translate(28 319)">
+      <rect width="375" height="115" rx="5" fill="#fff" stroke="#d9dfd8"/><text x="17" y="27" class="tiny accent">MISSION</text><text x="17" y="56" class="title ink">Make the process easier to understand.</text><text x="17" y="84" class="small muted">Decisions, details and milestones in one clear view.</text>
+      <rect x="395" width="399" height="115" rx="5" fill="#fff" stroke="#d9dfd8"/><text x="412" y="27" class="tiny accent">VISION</text><text x="412" y="56" class="title ink">Put useful details within reach.</text><text x="412" y="84" class="small muted">Product, inquiry and simulated order visibility.</text>
+    </g>
+    <text x="28" y="476" class="muted small">No real team, facility, buyer relationship or production claim is represented.</text>
+  </g>
+
+  <!-- Legal and page system -->
+  <g transform="translate(1830 2050)">
+    <rect width="840" height="500" rx="16" class="card shadow"/>
+    <text x="24" y="32" class="tiny accent">11–12 / PRIVACY &amp; TERMS</text>
+    <rect y="49" width="840" height="62" fill="#1d302d"/>
+    <text x="28" y="88" fill="#fff" style="font:700 15px Arial,sans-serif">garmentworks</text>
+    <text x="490" y="87" fill="#fff" class="small">Privacy  ·  Terms  ·  Contact</text>
+    <rect y="111" width="840" height="106" fill="#f1f2ed"/>
+    <text x="28" y="150" class="tiny accent">DEMO DOCUMENTATION</text>
+    <text x="28" y="191" class="heading ink">Clear terms. Honest expectations.</text>
+    <rect x="28" y="241" width="784" height="61" rx="4" fill="#f3ece4"/>
+    <rect x="28" y="241" width="4" height="61" fill="#b4774d"/>
+    <text x="49" y="267" class="label ink">Fictional portfolio content — no real products, orders or inquiries.</text>
+    <text x="49" y="288" class="small muted">Sample legal wording only. Not legal advice; review before any real deployment.</text>
+    <text x="28" y="341" class="label ink">Privacy notice</text>
+    <text x="28" y="368" class="small muted">Form entries are validated locally, then cleared. This implementation does not send</text>
+    <text x="28" y="390" class="small muted">or store inquiry details. Hosts may retain standard technical request logs.</text>
+    <path d="M28 413h784" class="line"/>
+    <text x="28" y="444" class="label ink">Terms of use</text>
+    <text x="28" y="469" class="small muted">Product specs, MOQs, lead times and shipment dates are illustrative, not offers.</text>
+  </g>
+</svg>

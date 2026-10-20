@@ -1,0 +1,105 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip to content" [ref=f10e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - generic [ref=f10e5]:
+        - generic [ref=f10e6]:
+          - paragraph [ref=f10e7]: Development to delivery · Bangladesh + global
+          - heading "From first sketch to finished shipment." [level=1] [ref=f10e8]
+          - paragraph [ref=f10e9]: A considered sourcing experience for teams shaping the next generation of apparel essentials.
+          - generic [ref=f10e10]:
+            - link "Explore our products" [ref=f10e11] [cursor=pointer]:
+              - /url: products.html
+              - text: Explore our products
+              - generic [aria-hidden] [ref=f10e12]: →
+            - link "How it works" [ref=f10e13] [cursor=pointer]:
+              - /url: "#capabilities"
+          - paragraph [ref=f10e14]: Fictional company · Illustrative products, figures, and order data
+        - figure "A clearer process From brief to shipment readiness" [ref=f10e15]:
+          - img "Illustration of a bright apparel workshop with production stations and fabric rolls" [ref=f10e16]
+          - generic [ref=f10e17]:
+            - generic [ref=f10e18]: A clearer process
+            - text: From brief to shipment readiness
+      - generic "Illustrative portfolio demonstration figures" [ref=f10e19]:
+        - generic [ref=f10e20]:
+          - paragraph [ref=f10e21]: A more connected sourcing journey
+          - paragraph [ref=f10e22]: One clear view, from product idea to production milestones.
+        - generic [ref=f10e23]:
+          - generic [ref=f10e24]:
+            - term [ref=f10e25]: Product verticals
+            - definition [ref=f10e26]: "05"
+          - generic [ref=f10e27]:
+            - term [ref=f10e28]: Buyer collaboration
+            - definition [ref=f10e29]: 01:1
+          - generic [ref=f10e30]:
+            - term [ref=f10e31]: Development support
+            - definition [ref=f10e32]: 360°
+    - generic [ref=f10e33]:
+      - generic [ref=f10e34]:
+        - generic [ref=f10e35]:
+          - paragraph [ref=f10e36]: Built around your brief
+          - heading "A sourcing partner that sees the whole picture." [level=2] [ref=f10e37]
+        - paragraph [ref=f10e38]: Garment Works is a fictional demonstration of how a buyer-focused apparel partner can bring product development, material choices, and production milestones into one clear conversation.
+      - generic "Product verticals"
+    - generic [ref=f10e40]:
+      - generic [ref=f10e41]:
+        - paragraph [ref=f10e42]: Made with intent
+        - heading "One connected process. Better informed decisions." [level=2] [ref=f10e43]
+        - paragraph [ref=f10e44]: From the earliest brief to final packing, our concept keeps buyers close to the details that shape a collection.
+        - link "Discuss your requirements" [ref=f10e45] [cursor=pointer]:
+          - /url: contact.html
+          - text: Discuss your requirements
+          - generic [aria-hidden] [ref=f10e46]: →
+      - list [ref=f10e47]:
+        - listitem [ref=f10e48]:
+          - generic [ref=f10e49]: "01"
+          - generic [ref=f10e50]:
+            - heading "Brief & discovery" [level=3] [ref=f10e51]
+            - paragraph [ref=f10e52]: Align on product, target market, and practical requirements.
+        - listitem [ref=f10e53]:
+          - generic [ref=f10e54]: "02"
+          - generic [ref=f10e55]:
+            - heading "Material & development" [level=3] [ref=f10e56]
+            - paragraph [ref=f10e57]: Explore fabric, trims, fit, and construction options.
+        - listitem [ref=f10e58]:
+          - generic [ref=f10e59]: "03"
+          - generic [ref=f10e60]:
+            - heading "Sample & approval" [level=3] [ref=f10e61]
+            - paragraph [ref=f10e62]: Review development details before production planning.
+        - listitem [ref=f10e63]:
+          - generic [ref=f10e64]: "04"
+          - generic [ref=f10e65]:
+            - heading "Production & quality" [level=3] [ref=f10e66]
+            - paragraph [ref=f10e67]: Follow key milestones through inspection and packing.
+        - listitem [ref=f10e68]:
+          - generic [ref=f10e69]: "05"
+          - generic [ref=f10e70]:
+            - heading "Shipment readiness" [level=3] [ref=f10e71]
+            - paragraph [ref=f10e72]: Prepare order information for the next export step.
+    - generic [ref=f10e74]:
+      - generic [ref=f10e75]:
+        - paragraph [ref=f10e76]: Responsible by design
+        - heading "Better choices begin with better questions." [level=2] [ref=f10e77]
+      - paragraph [ref=f10e78]: Material efficiency, thoughtful sourcing, durable design, and transparent production are important areas of consideration. These are general industry themes, not verified claims about a real company.
+      - link "Talk through a brief" [ref=f10e79] [cursor=pointer]:
+        - /url: contact.html
+        - text: Talk through a brief
+        - generic [aria-hidden] [ref=f10e80]: →
+    - generic [ref=f10e82]:
+      - generic [ref=f10e83]:
+        - paragraph [ref=f10e84]: Selected products
+        - heading "Designed for real-world collections." [level=2] [ref=f10e85]
+      - link "View all products" [ref=f10e86] [cursor=pointer]:
+        - /url: products.html
+        - text: View all products
+        - generic [aria-hidden] [ref=f10e87]: →
+    - generic [ref=f10e89]:
+      - generic [ref=f10e90]:
+        - paragraph [ref=f10e91]: Stay in the know
+        - heading "Every milestone, in one place." [level=2] [ref=f10e92]
+        - paragraph [ref=f10e93]: Preview a simple order-tracking experience using simulated data. No real order information is connected.
+      - link "Explore order tracking" [ref=f10e94] [cursor=pointer]:
+        - /url: order-tracking.html
+        - text: Explore order tracking
+        - generic [aria-hidden] [ref=f10e95]: →

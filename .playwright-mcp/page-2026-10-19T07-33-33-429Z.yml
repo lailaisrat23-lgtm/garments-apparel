@@ -1,0 +1,179 @@
+- generic [active] [ref=f6e1]:
+  - link "Skip to content" [ref=f6e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f6e5]:
+    - paragraph [ref=f6e6]: Garment Works is a fictional portfolio demonstration.
+    - link "Explore sourcing categories" [ref=f6e7] [cursor=pointer]:
+      - /url: products.html
+      - text: Explore sourcing categories →
+  - banner [ref=f6e9]:
+    - generic [ref=f6e10]:
+      - link "Garment Works home" [ref=f6e11] [cursor=pointer]:
+        - /url: home.html
+        - generic [aria-hidden] [ref=f6e12]: GW
+        - generic [ref=f6e13]: garmentworks
+      - navigation "Primary navigation" [ref=f6e14]:
+        - link "Home" [ref=f6e15] [cursor=pointer]:
+          - /url: home.html
+        - link "About" [ref=f6e16] [cursor=pointer]:
+          - /url: about.html
+        - link "Products" [ref=f6e17] [cursor=pointer]:
+          - /url: products.html
+        - link "Capabilities" [ref=f6e18] [cursor=pointer]:
+          - /url: capabilities.html
+        - link "Sustainability" [ref=f6e19] [cursor=pointer]:
+          - /url: sustainability.html
+        - link "Track order" [ref=f6e20] [cursor=pointer]:
+          - /url: order-tracking.html
+        - link "Talk to our team" [ref=f6e21] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=f6e22]:
+    - generic [ref=f6e24]:
+      - paragraph [ref=f6e25]: A considered range
+      - heading "Explore the collection." [level=1] [ref=f6e26]
+      - paragraph [ref=f6e27]: Browse illustrative products across apparel, materials, and finishing details. Specifications and minimums are examples only.
+    - generic [ref=f6e29]:
+      - form "Filter products" [ref=f6e30]:
+        - generic [ref=f6e31]:
+          - generic [ref=f6e32]: Search products
+          - searchbox "Search products" [ref=f6e33]
+        - generic [ref=f6e34]:
+          - generic [ref=f6e35]: Category
+          - combobox "Category" [ref=f6e36]:
+            - option "All categories" [selected]
+            - option "Knitwear"
+            - option "Woven garments"
+            - option "Denim & jeans"
+            - option "Yarn & spinning"
+            - option "Trims & accessories"
+        - generic [ref=f6e37]:
+          - generic [ref=f6e38]: Material
+          - combobox "Material" [ref=f6e39]:
+            - option "All materials" [selected]
+            - option "Organic cotton"
+            - option "Cotton pique"
+            - option "Cotton poplin"
+            - option "Cotton twill"
+            - option "Cotton denim"
+            - option "Combed cotton"
+            - option "Recycled polyester"
+        - generic [ref=f6e40]:
+          - generic [ref=f6e41]: Minimum order
+          - combobox "Minimum order" [ref=f6e42]:
+            - option "Any MOQ" [selected]
+            - option "Under 1,500 pcs"
+            - option "1,500 pcs and above"
+        - generic [ref=f6e43]:
+          - generic [ref=f6e44]: Sort by
+          - combobox "Sort by" [ref=f6e45]:
+            - option "Featured" [selected]
+            - option "Product name"
+            - 'option "MOQ: low to high"'
+            - 'option "MOQ: high to low"'
+        - button "Reset filters" [ref=f6e46] [cursor=pointer]
+      - generic [ref=f6e47]:
+        - paragraph [ref=f6e48]: 8 products shown
+        - paragraph [ref=f6e49]: Fictional demonstration products and specifications.
+      - generic [ref=f6e50]:
+        - article [ref=f6e51]:
+          - generic [ref=f6e53]: KN-001
+          - generic [ref=f6e54]:
+            - paragraph [ref=f6e55]: Knitwear
+            - heading [level=2] [ref=f6e56]:
+              - link "Classic cotton crew tee" [ref=f6e57] [cursor=pointer]:
+                - /url: product-details.html?id=KN-001
+            - paragraph [ref=f6e58]: Organic cotton · 45–60 days
+            - paragraph [ref=f6e59]: "Minimum order: 1,200 pieces"
+        - article [ref=f6e60]:
+          - generic [ref=f6e62]: KN-002
+          - generic [ref=f6e63]:
+            - paragraph [ref=f6e64]: Knitwear
+            - heading [level=2] [ref=f6e65]:
+              - link "Relaxed pique polo" [ref=f6e66] [cursor=pointer]:
+                - /url: product-details.html?id=KN-002
+            - paragraph [ref=f6e67]: Cotton pique · 50–65 days
+            - paragraph [ref=f6e68]: "Minimum order: 1,500 pieces"
+        - article [ref=f6e69]:
+          - generic [ref=f6e71]: WV-014
+          - generic [ref=f6e72]:
+            - paragraph [ref=f6e73]: Woven garments
+            - heading [level=2] [ref=f6e74]:
+              - link "Everyday poplin shirt" [ref=f6e75] [cursor=pointer]:
+                - /url: product-details.html?id=WV-014
+            - paragraph [ref=f6e76]: Cotton poplin · 45–60 days
+            - paragraph [ref=f6e77]: "Minimum order: 1,000 pieces"
+        - article [ref=f6e78]:
+          - generic [ref=f6e80]: WV-021
+          - generic [ref=f6e81]:
+            - paragraph [ref=f6e82]: Woven garments
+            - heading [level=2] [ref=f6e83]:
+              - link "Utility overshirt" [ref=f6e84] [cursor=pointer]:
+                - /url: product-details.html?id=WV-021
+            - paragraph [ref=f6e85]: Cotton twill · 55–70 days
+            - paragraph [ref=f6e86]: "Minimum order: 1,200 pieces"
+        - article [ref=f6e87]:
+          - generic [ref=f6e89]: DN-008
+          - generic [ref=f6e90]:
+            - paragraph [ref=f6e91]: Denim & jeans
+            - heading [level=2] [ref=f6e92]:
+              - link "Straight-leg denim" [ref=f6e93] [cursor=pointer]:
+                - /url: product-details.html?id=DN-008
+            - paragraph [ref=f6e94]: Cotton denim · 60–75 days
+            - paragraph [ref=f6e95]: "Minimum order: 1,800 pieces"
+        - article [ref=f6e96]:
+          - generic [ref=f6e98]: YR-003
+          - generic [ref=f6e99]:
+            - paragraph [ref=f6e100]: Yarn & spinning
+            - heading [level=2] [ref=f6e101]:
+              - link "Combed cotton yarn" [ref=f6e102] [cursor=pointer]:
+                - /url: product-details.html?id=YR-003
+            - paragraph [ref=f6e103]: Combed cotton · 35–50 days
+            - paragraph [ref=f6e104]: "Minimum order: 2,500 pieces"
+      - navigation "Product pages" [ref=f6e105]:
+        - button "Previous" [disabled] [ref=f6e106] [cursor=pointer]
+        - paragraph [ref=f6e107]: Page 1 of 2
+        - button "Next" [ref=f6e108] [cursor=pointer]
+  - contentinfo [ref=f6e110]:
+    - generic [ref=f6e111]:
+      - generic [ref=f6e112]:
+        - generic [ref=f6e113]:
+          - link "garmentworks" [ref=f6e114] [cursor=pointer]:
+            - /url: home.html
+            - generic [aria-hidden] [ref=f6e115]: GW
+          - paragraph [ref=f6e117]: A portfolio concept for thoughtful apparel sourcing and manufacturing conversations.
+        - generic [ref=f6e118]:
+          - heading "Explore" [level=2] [ref=f6e119]
+          - list [ref=f6e120]:
+            - listitem [ref=f6e121]:
+              - link "About the concept" [ref=f6e122] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f6e123]:
+              - link "Product catalog" [ref=f6e124] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=f6e125]:
+              - link "Manufacturing capabilities" [ref=f6e126] [cursor=pointer]:
+                - /url: capabilities.html
+            - listitem [ref=f6e127]:
+              - link "Sourcing considerations" [ref=f6e128] [cursor=pointer]:
+                - /url: sustainability.html
+            - listitem [ref=f6e129]:
+              - link "Order tracking demo" [ref=f6e130] [cursor=pointer]:
+                - /url: order-tracking.html
+            - listitem [ref=f6e131]:
+              - link "Buyer portal preview" [ref=f6e132] [cursor=pointer]:
+                - /url: buyer-portal.html
+        - generic [ref=f6e133]:
+          - heading "Connect" [level=2] [ref=f6e134]
+          - list [ref=f6e135]:
+            - listitem [ref=f6e136]:
+              - link "Buyer inquiries" [ref=f6e137] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f6e138]:
+              - link "Privacy notice" [ref=f6e139] [cursor=pointer]:
+                - /url: privacy-policy.html
+            - listitem [ref=f6e140]:
+              - link "Terms of use" [ref=f6e141] [cursor=pointer]:
+                - /url: terms-of-use.html
+      - generic [ref=f6e142]:
+        - paragraph [ref=f6e143]: Fictional company and illustrative content. No real orders, messages, or shipment updates are processed.
+        - paragraph [ref=f6e144]: © 2026 Garment Works portfolio demo

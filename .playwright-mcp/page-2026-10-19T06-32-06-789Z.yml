@@ -1,0 +1,109 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - main [ref=f1e3]:
+    - generic [ref=f1e5]:
+      - paragraph [ref=f1e6]: A considered range
+      - heading "Explore the collection." [level=1] [ref=f1e7]
+      - paragraph [ref=f1e8]: Browse illustrative products across apparel, materials, and finishing details. Specifications and minimums are examples only.
+    - generic [ref=f1e10]:
+      - form "Filter products" [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - generic [ref=f1e13]: Search products
+          - searchbox "Search products" [ref=f1e14]
+        - generic [ref=f1e15]:
+          - generic [ref=f1e16]: Category
+          - combobox "Category" [ref=f1e17]:
+            - option "All categories" [selected]
+            - option "Knitwear"
+            - option "Woven garments"
+            - option "Denim & jeans"
+            - option "Yarn & spinning"
+            - option "Trims & accessories"
+        - generic [ref=f1e18]:
+          - generic [ref=f1e19]: Material
+          - combobox "Material" [ref=f1e20]:
+            - option "All materials" [selected]
+            - option "Organic cotton"
+            - option "Cotton pique"
+            - option "Cotton poplin"
+            - option "Cotton twill"
+            - option "Cotton denim"
+            - option "Combed cotton"
+            - option "Recycled polyester"
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]: Minimum order
+          - combobox "Minimum order" [ref=f1e23]:
+            - option "Any MOQ" [selected]
+            - option "Under 1,500 pcs"
+            - option "1,500 pcs and above"
+        - generic [ref=f1e24]:
+          - generic [ref=f1e25]: Sort by
+          - combobox "Sort by" [ref=f1e26]:
+            - option "Featured" [selected]
+            - option "Product name"
+            - 'option "MOQ: low to high"'
+            - 'option "MOQ: high to low"'
+        - button "Reset filters" [ref=f1e27] [cursor=pointer]
+      - generic [ref=f1e28]:
+        - paragraph [ref=f1e29]: 8 products shown
+        - paragraph [ref=f1e30]: Fictional demonstration products and specifications.
+      - generic [ref=f1e31]:
+        - article [ref=f1e32]:
+          - generic [ref=f1e34]: KN-001
+          - generic [ref=f1e35]:
+            - paragraph [ref=f1e36]: Knitwear
+            - heading [level=2] [ref=f1e37]:
+              - link "Classic cotton crew tee" [ref=f1e38] [cursor=pointer]:
+                - /url: product-details.html?id=KN-001
+            - paragraph [ref=f1e39]: Organic cotton · 45–60 days
+            - paragraph [ref=f1e40]: "Minimum order: 1,200 pieces"
+        - article [ref=f1e41]:
+          - generic [ref=f1e43]: KN-002
+          - generic [ref=f1e44]:
+            - paragraph [ref=f1e45]: Knitwear
+            - heading [level=2] [ref=f1e46]:
+              - link "Relaxed pique polo" [ref=f1e47] [cursor=pointer]:
+                - /url: product-details.html?id=KN-002
+            - paragraph [ref=f1e48]: Cotton pique · 50–65 days
+            - paragraph [ref=f1e49]: "Minimum order: 1,500 pieces"
+        - article [ref=f1e50]:
+          - generic [ref=f1e52]: WV-014
+          - generic [ref=f1e53]:
+            - paragraph [ref=f1e54]: Woven garments
+            - heading [level=2] [ref=f1e55]:
+              - link "Everyday poplin shirt" [ref=f1e56] [cursor=pointer]:
+                - /url: product-details.html?id=WV-014
+            - paragraph [ref=f1e57]: Cotton poplin · 45–60 days
+            - paragraph [ref=f1e58]: "Minimum order: 1,000 pieces"
+        - article [ref=f1e59]:
+          - generic [ref=f1e61]: WV-021
+          - generic [ref=f1e62]:
+            - paragraph [ref=f1e63]: Woven garments
+            - heading [level=2] [ref=f1e64]:
+              - link "Utility overshirt" [ref=f1e65] [cursor=pointer]:
+                - /url: product-details.html?id=WV-021
+            - paragraph [ref=f1e66]: Cotton twill · 55–70 days
+            - paragraph [ref=f1e67]: "Minimum order: 1,200 pieces"
+        - article [ref=f1e68]:
+          - generic [ref=f1e70]: DN-008
+          - generic [ref=f1e71]:
+            - paragraph [ref=f1e72]: Denim & jeans
+            - heading [level=2] [ref=f1e73]:
+              - link "Straight-leg denim" [ref=f1e74] [cursor=pointer]:
+                - /url: product-details.html?id=DN-008
+            - paragraph [ref=f1e75]: Cotton denim · 60–75 days
+            - paragraph [ref=f1e76]: "Minimum order: 1,800 pieces"
+        - article [ref=f1e77]:
+          - generic [ref=f1e79]: YR-003
+          - generic [ref=f1e80]:
+            - paragraph [ref=f1e81]: Yarn & spinning
+            - heading [level=2] [ref=f1e82]:
+              - link "Combed cotton yarn" [ref=f1e83] [cursor=pointer]:
+                - /url: product-details.html?id=YR-003
+            - paragraph [ref=f1e84]: Combed cotton · 35–50 days
+            - paragraph [ref=f1e85]: "Minimum order: 2,500 pieces"
+      - navigation "Product pages" [ref=f1e86]:
+        - button "Previous" [disabled] [ref=f1e87] [cursor=pointer]
+        - paragraph [ref=f1e88]: Page 1 of 2
+        - button "Next" [ref=f1e89] [cursor=pointer]

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Catalog | Garment Works Demo</title>
+  <meta name="description" content="Browse illustrative apparel, yarn, and trim products in the Garment Works static portfolio catalog.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Product Catalog | Garment Works Demo">
+  <meta property="og:description" content="A local-data catalog for a fictional apparel manufacturing portfolio.">
+  <link rel="canonical" href="https://example.com/garment-works/products">
+  <link rel="icon" href="../../../public/assets/icons/garment-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../public/css/style.css">
+  <script src="../../../public/js/data.js" defer></script>
+  <script src="../../../public/js/main.js" defer></script>
+  <script src="../../../public/js/navigation.js" defer></script>
+  <script src="../../../public/js/catalog.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="site-announcement"></div><div id="site-header"></div>
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container"><p class="eyebrow">A considered range</p><h1>Explore the collection.</h1><p>Browse illustrative products across apparel, materials, and finishing details. Specifications and minimums are examples only.</p></div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form class="filter-panel" data-catalog-filters aria-label="Filter products">
+          <div class="field"><label for="catalog-search">Search products</label><input id="catalog-search" name="search" type="search" placeholder="Name or reference"></div>
+          <div class="field"><label for="catalog-category">Category</label><select id="catalog-category" name="category"><option value="">All categories</option><option>Knitwear</option><option>Woven garments</option><option>Denim &amp; jeans</option><option>Yarn &amp; spinning</option><option>Trims &amp; accessories</option></select></div>
+          <div class="field"><label for="catalog-material">Material</label><select id="catalog-material" name="material"><option value="">All materials</option></select></div>
+          <div class="field"><label for="catalog-moq">Minimum order</label><select id="catalog-moq" name="moq"><option value="">Any MOQ</option><option value="under-1500">Under 1,500 pcs</option><option value="1500-plus">1,500 pcs and above</option></select></div>
+          <div class="field"><label for="catalog-sort">Sort by</label><select id="catalog-sort" name="sort"><option value="featured">Featured</option><option value="name">Product name</option><option value="moq-low">MOQ: low to high</option><option value="moq-high">MOQ: high to low</option></select></div>
+          <button class="button button--quiet filter-panel__reset" type="button" data-reset-filters>Reset filters</button>
+        </form>
+        <div class="catalog-toolbar"><p data-result-count aria-live="polite"></p><p class="demo-note">Fictional demonstration products and specifications.</p></div>
+        <div class="product-grid" data-catalog-grid tabindex="-1"></div>
+        <p class="empty-state" data-catalog-empty hidden>No products match these filters. Try changing your search or reset the filters.</p>
+        <nav class="pagination" data-pagination aria-label="Product pages" hidden>
+          <button class="button button--quiet" type="button" data-page-prev>Previous</button>
+          <p data-page-label></p>
+          <button class="button button--quiet" type="button" data-page-next>Next</button>
+        </nav>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

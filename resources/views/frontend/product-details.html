@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Details | Garment Works Demo</title>
+  <meta name="description" content="View illustrative apparel product specifications and request a sourcing conversation in the Garment Works portfolio demo.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Product Details | Garment Works Demo">
+  <meta property="og:description" content="Static, fictional product details for a B2B apparel sourcing portfolio.">
+  <link rel="canonical" href="https://example.com/garment-works/product-details">
+  <link rel="icon" href="../../../public/assets/icons/garment-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../public/css/style.css">
+  <script src="../../../public/js/data.js" defer></script>
+  <script src="../../../public/js/main.js" defer></script>
+  <script src="../../../public/js/navigation.js" defer></script>
+  <script src="../../../public/js/product-details.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="site-announcement"></div><div id="site-header"></div>
+  <main id="main-content">
+    <section class="page-hero"><div class="container"><p class="eyebrow">Product development</p><h1>Details that help shape your brief.</h1><p>Explore an illustrative product record and the specifications a sourcing conversation might cover.</p></div></section>
+    <section class="section">
+      <div class="container">
+        <div class="product-detail" data-product-details hidden>
+          <div class="product-detail__visual" data-product-visual aria-hidden="true"></div>
+          <div class="product-detail__content">
+            <p class="eyebrow" data-product-category></p>
+            <p class="product-detail__reference" data-product-id></p>
+            <h2 data-product-name></h2>
+            <p data-product-description></p>
+            <dl class="tracking-summary" data-product-specifications></dl>
+            <p class="demo-note">This is fictional portfolio-demo product information. All minimums and lead times are illustrative, not a commercial offer.</p>
+            <a class="button" data-quote-link href="contact.html">Discuss this product <span aria-hidden="true">→</span></a>
+          </div>
+          <section class="product-detail__related">
+            <h2>Related options</h2>
+            <div data-related-products></div>
+          </section>
+        </div>
+        <div class="empty-state" data-product-unavailable hidden>
+          <h2>Product record not found</h2>
+          <p>That product reference is not part of this demonstration catalog.</p>
+          <a class="button" href="products.html">Return to the product catalog</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

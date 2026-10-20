@@ -1,0 +1,120 @@
+- generic [ref=f11e1]:
+  - link "Skip to content" [ref=f11e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f11e5]:
+    - paragraph [ref=f11e6]: Garment Works is a fictional portfolio demonstration.
+    - link "Explore sourcing categories" [ref=f11e7] [cursor=pointer]:
+      - /url: products.html
+      - text: Explore sourcing categories →
+  - banner [ref=f11e9]:
+    - generic [ref=f11e10]:
+      - link "Garment Works home" [ref=f11e11] [cursor=pointer]:
+        - /url: home.html
+        - generic [aria-hidden] [ref=f11e12]: GW
+        - generic [ref=f11e13]: garmentworks
+      - navigation "Primary navigation" [ref=f11e14]:
+        - link "Home" [ref=f11e15] [cursor=pointer]:
+          - /url: home.html
+        - link "About" [ref=f11e16] [cursor=pointer]:
+          - /url: about.html
+        - link "Products" [ref=f11e17] [cursor=pointer]:
+          - /url: products.html
+        - link "Capabilities" [ref=f11e18] [cursor=pointer]:
+          - /url: capabilities.html
+        - link "Sustainability" [ref=f11e19] [cursor=pointer]:
+          - /url: sustainability.html
+        - link "Track order" [ref=f11e20] [cursor=pointer]:
+          - /url: order-tracking.html
+        - link "Talk to our team" [ref=f11e21] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=f11e22]:
+    - generic [ref=f11e24]:
+      - paragraph [ref=f11e25]: Start a conversation
+      - heading "Tell us what you’re building." [level=1] [ref=f11e26]
+      - paragraph [ref=f11e27]: Share a few details about your sourcing brief. This demonstration form does not send or store submissions.
+    - generic [ref=f11e29]:
+      - generic [ref=f11e30]:
+        - paragraph [ref=f11e31]: Buyer inquiries
+        - heading "Good projects start with a clear brief." [level=2] [ref=f11e32]
+        - paragraph [ref=f11e33]: Whether you’re exploring a new product or refining an existing range, use this sample form to preview the inquiry experience.
+        - generic [ref=f11e34]: Garment Works and its contact details are fictional. No real buyer support channel is connected.
+      - generic [ref=f11e36]:
+        - generic [ref=f11e37]:
+          - generic [ref=f11e38]: Company name
+          - textbox "Company name" [ref=f11e39]
+        - generic [ref=f11e40]:
+          - generic [ref=f11e41]: Your name
+          - textbox "Your name" [ref=f11e42]
+        - generic [ref=f11e43]:
+          - generic [ref=f11e44]: Business email
+          - textbox "Business email" [ref=f11e45]
+        - generic [ref=f11e46]:
+          - generic [ref=f11e47]: Country
+          - textbox "Country" [ref=f11e48]
+        - generic [ref=f11e49]:
+          - generic [ref=f11e50]: Product interest
+          - combobox "Product interest" [ref=f11e51]:
+            - option "Choose a category" [selected]
+            - option "Knitwear"
+            - option "Woven garments"
+            - option "Denim & jeans"
+            - option "Yarn & spinning"
+            - option "Trims & accessories"
+            - option "Other / multiple categories"
+        - generic [ref=f11e52]:
+          - generic [ref=f11e53]: Estimated quantity
+          - textbox "Estimated quantity" [ref=f11e54]:
+            - /placeholder: e.g. 2,000 pieces
+        - generic [ref=f11e55]:
+          - generic [ref=f11e56]: Tell us about your brief
+          - textbox "Tell us about your brief" [ref=f11e57]
+        - generic [ref=f11e59]:
+          - checkbox "I understand this is a demo form and my information will not be transmitted." [ref=f11e60]
+          - generic [ref=f11e61]: I understand this is a demo form and my information will not be transmitted.
+        - generic [ref=f11e62]:
+          - button "Preview inquiry submission" [active] [ref=f11e63] [cursor=pointer]
+          - status [ref=f11e64]: Thank you. This is a demonstration form only; no message was sent or stored.
+  - contentinfo [ref=f11e66]:
+    - generic [ref=f11e67]:
+      - generic [ref=f11e68]:
+        - generic [ref=f11e69]:
+          - link "garmentworks" [ref=f11e70] [cursor=pointer]:
+            - /url: home.html
+            - generic [aria-hidden] [ref=f11e71]: GW
+          - paragraph [ref=f11e73]: A portfolio concept for thoughtful apparel sourcing and manufacturing conversations.
+        - generic [ref=f11e74]:
+          - heading "Explore" [level=2] [ref=f11e75]
+          - list [ref=f11e76]:
+            - listitem [ref=f11e77]:
+              - link "About the concept" [ref=f11e78] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f11e79]:
+              - link "Product catalog" [ref=f11e80] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=f11e81]:
+              - link "Manufacturing capabilities" [ref=f11e82] [cursor=pointer]:
+                - /url: capabilities.html
+            - listitem [ref=f11e83]:
+              - link "Sourcing considerations" [ref=f11e84] [cursor=pointer]:
+                - /url: sustainability.html
+            - listitem [ref=f11e85]:
+              - link "Order tracking demo" [ref=f11e86] [cursor=pointer]:
+                - /url: order-tracking.html
+            - listitem [ref=f11e87]:
+              - link "Buyer portal preview" [ref=f11e88] [cursor=pointer]:
+                - /url: buyer-portal.html
+        - generic [ref=f11e89]:
+          - heading "Connect" [level=2] [ref=f11e90]
+          - list [ref=f11e91]:
+            - listitem [ref=f11e92]:
+              - link "Buyer inquiries" [ref=f11e93] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f11e94]:
+              - link "Privacy notice" [ref=f11e95] [cursor=pointer]:
+                - /url: privacy-policy.html
+            - listitem [ref=f11e96]:
+              - link "Terms of use" [ref=f11e97] [cursor=pointer]:
+                - /url: terms-of-use.html
+      - generic [ref=f11e98]:
+        - paragraph [ref=f11e99]: Fictional company and illustrative content. No real orders, messages, or shipment updates are processed.
+        - paragraph [ref=f11e100]: © 2026 Garment Works portfolio demo

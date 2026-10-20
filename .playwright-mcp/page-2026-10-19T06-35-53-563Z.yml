@@ -1,0 +1,100 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f3e5]:
+    - paragraph [ref=f3e6]: Garment Works is a fictional portfolio demonstration.
+    - link "Explore sourcing categories" [ref=f3e7] [cursor=pointer]:
+      - /url: products.html
+      - text: Explore sourcing categories →
+  - banner [ref=f3e9]:
+    - generic [ref=f3e10]:
+      - link "Garment Works home" [ref=f3e11] [cursor=pointer]:
+        - /url: home.html
+        - generic [aria-hidden] [ref=f3e12]: GW
+        - generic [ref=f3e13]: garmentworks
+      - navigation "Primary navigation" [ref=f3e14]:
+        - link "Home" [ref=f3e15] [cursor=pointer]:
+          - /url: home.html
+        - link "About" [ref=f3e16] [cursor=pointer]:
+          - /url: home.html#about
+        - link "Products" [ref=f3e17] [cursor=pointer]:
+          - /url: products.html
+        - link "Capabilities" [ref=f3e18] [cursor=pointer]:
+          - /url: home.html#capabilities
+        - link "Sustainability" [ref=f3e19] [cursor=pointer]:
+          - /url: home.html#sustainability
+        - link "Track order" [ref=f3e20] [cursor=pointer]:
+          - /url: order-tracking.html
+        - link "Talk to our team" [ref=f3e21] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=f3e22]:
+    - generic [ref=f3e24]:
+      - paragraph [ref=f3e25]: Product development
+      - heading "Details that help shape your brief." [level=1] [ref=f3e26]
+      - paragraph [ref=f3e27]: Explore an illustrative product record and the specifications a sourcing conversation might cover.
+    - generic [ref=f3e30]:
+      - generic [aria-hidden] [ref=f3e31]: KN-001
+      - generic [ref=f3e32]:
+        - paragraph [ref=f3e33]: Knitwear
+        - paragraph [ref=f3e34]: Reference KN-001
+        - heading "Classic cotton crew tee" [level=2] [ref=f3e35]
+        - paragraph [ref=f3e36]: A versatile jersey tee with a clean neckline and customizable finish.
+        - generic [ref=f3e37]:
+          - generic [ref=f3e38]:
+            - term [ref=f3e39]: Material
+            - definition [ref=f3e40]: Organic cotton
+          - generic [ref=f3e41]:
+            - term [ref=f3e42]: Illustrative minimum
+            - definition [ref=f3e43]: 1,200 pieces
+          - generic [ref=f3e44]:
+            - term [ref=f3e45]: Estimated lead time
+            - definition [ref=f3e46]: 45–60 days
+          - generic [ref=f3e47]:
+            - term [ref=f3e48]: Sampling
+            - definition [ref=f3e49]: Available for discussion; timing depends on the brief.
+          - generic [ref=f3e50]:
+            - term [ref=f3e51]: Customization
+            - definition [ref=f3e52]: Fit, color, trims, and packaging are subject to development.
+        - paragraph [ref=f3e53]: This is fictional portfolio-demo product information. All minimums and lead times are illustrative, not a commercial offer.
+        - link "Discuss this product" [ref=f3e54] [cursor=pointer]:
+          - /url: contact.html?product=KN-001
+          - text: Discuss this product
+          - generic [aria-hidden] [ref=f3e55]: →
+      - generic [ref=f3e56]:
+        - heading "Related options" [level=2] [ref=f3e57]
+        - link "Relaxed pique polo KN-002" [ref=f3e59] [cursor=pointer]:
+          - /url: product-details.html?id=KN-002
+          - generic [ref=f3e60]: Relaxed pique polo
+          - generic [ref=f3e61]: KN-002
+  - contentinfo [ref=f3e63]:
+    - generic [ref=f3e64]:
+      - generic [ref=f3e65]:
+        - generic [ref=f3e66]:
+          - link "garmentworks" [ref=f3e67] [cursor=pointer]:
+            - /url: home.html
+            - generic [aria-hidden] [ref=f3e68]: GW
+          - paragraph [ref=f3e70]: A portfolio concept for thoughtful apparel sourcing and manufacturing conversations.
+        - generic [ref=f3e71]:
+          - heading "Explore" [level=2] [ref=f3e72]
+          - list [ref=f3e73]:
+            - listitem [ref=f3e74]:
+              - link "Product catalog" [ref=f3e75] [cursor=pointer]:
+                - /url: products.html
+            - listitem [ref=f3e76]:
+              - link "Capabilities" [ref=f3e77] [cursor=pointer]:
+                - /url: home.html#capabilities
+            - listitem [ref=f3e78]:
+              - link "Order tracking demo" [ref=f3e79] [cursor=pointer]:
+                - /url: order-tracking.html
+        - generic [ref=f3e80]:
+          - heading "Connect" [level=2] [ref=f3e81]
+          - list [ref=f3e82]:
+            - listitem [ref=f3e83]:
+              - link "Buyer inquiries" [ref=f3e84] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f3e85]:
+              - link "About the concept" [ref=f3e86] [cursor=pointer]:
+                - /url: home.html#about
+      - generic [ref=f3e87]:
+        - paragraph [ref=f3e88]: Fictional company and illustrative content. No real orders, messages, or shipment updates are processed.
+        - paragraph [ref=f3e89]: © 2026 Garment Works portfolio demo
