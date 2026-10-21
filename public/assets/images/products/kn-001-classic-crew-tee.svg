@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Classic cotton crew tee</title>
+  <desc id="desc">A flat-lay render of a cream organic cotton crew-neck t-shirt on a soft neutral backdrop.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#eef1e9"/>
+      <stop offset="1" stop-color="#dce2d9"/>
+    </linearGradient>
+    <linearGradient id="cloth" x2="1" y2="1">
+      <stop stop-color="#fbf9f3"/>
+      <stop offset="0.55" stop-color="#f1ede2"/>
+      <stop offset="1" stop-color="#e3ddce"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop stop-color="#2d403a" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2d403a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="498" rx="238" ry="54" fill="url(#shadow)"/>
+  <path d="M400 172c26 0 46 26 72 33l76 35 52 108-72 34-32-52v142c-64 18-128 18-192 0V330l-32 52-72-34 52-108 76-35c26-7 46-33 72-33z"
+        fill="url(#cloth)" stroke="#d6cfbe" stroke-width="3"/>
+  <ellipse cx="400" cy="188" rx="52" ry="20" fill="#e0dacb"/>
+  <ellipse cx="400" cy="188" rx="52" ry="20" fill="none" stroke="#cdc6b4" stroke-width="3"/>
+  <path d="M400 168c-26 0-46 16-52 26M400 168c26 0 46 16 52 26" fill="none" stroke="#c9c2af" stroke-width="3"/>
+  <path d="M304 336v128M496 336v128" fill="none" stroke="#dcd6c6" stroke-width="2"/>
+  <path d="M310 462c60 14 120 14 180 0" fill="none" stroke="#dcd6c6" stroke-width="2"/>
+  <path d="M268 316l-28 48M532 316l28 48" fill="none" stroke="#dcd6c6" stroke-width="2"/>
+  <path d="M400 240v120" stroke="#e6e0d1" stroke-width="2"/>
+</svg>

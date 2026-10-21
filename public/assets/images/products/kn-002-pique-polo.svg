@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Relaxed pique polo</title>
+  <desc id="desc">A flat-lay render of a sage cotton pique polo shirt with a ribbed collar and two-button placket.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#ede9e0"/>
+      <stop offset="1" stop-color="#ddd6c9"/>
+    </linearGradient>
+    <linearGradient id="cloth" x2="1" y2="1">
+      <stop stop-color="#a8b7a6"/>
+      <stop offset="0.55" stop-color="#8fa08f"/>
+      <stop offset="1" stop-color="#768a78"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop stop-color="#2d403a" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#2d403a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pique" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0 10L10 0" stroke="#ffffff" stroke-opacity=".13" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="500" rx="236" ry="52" fill="url(#shadow)"/>
+  <path d="M400 170c25 0 45 25 71 32l77 36 51 107-71 34-32-51v141c-64 18-128 18-192 0V328l-32 51-71-34 51-107 77-36c26-7 46-32 71-32z"
+        fill="url(#cloth)" stroke="#65796a" stroke-width="3"/>
+  <path d="M400 170c25 0 45 25 71 32l77 36 51 107-71 34-32-51v141c-64 18-128 18-192 0V328l-32 51-71-34 51-107 77-36c26-7 46-32 71-32z"
+        fill="url(#pique)" stroke="none"/>
+  <path d="M348 180l52 44 52-44-18-12-34 24-34-24z" fill="#6d8172" stroke="#5c7061" stroke-width="3"/>
+  <path d="M386 218h28v124h-28z" fill="#83957f" stroke="#6c8069" stroke-width="3"/>
+  <circle cx="400" cy="256" r="6" fill="#f3f0e6" stroke="#6c8069" stroke-width="2"/>
+  <circle cx="400" cy="308" r="6" fill="#f3f0e6" stroke="#6c8069" stroke-width="2"/>
+  <path d="M268 312l-27 47M532 312l27 47" fill="none" stroke="#7d9080" stroke-width="2"/>
+  <path d="M311 462c59 14 119 14 178 0" fill="none" stroke="#7d9080" stroke-width="2"/>
+  <path d="M318 226c0 34 0 68 4 102M482 226c0 34 0 68-4 102" fill="none" stroke="#93a693" stroke-width="2"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Combed cotton yarn</title>
+  <desc id="desc">A studio render of three combed cotton yarn cones in natural cream tones.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#f0ece2"/>
+      <stop offset="1" stop-color="#ded7c8"/>
+    </linearGradient>
+    <linearGradient id="cream" x2="1" y2="0">
+      <stop stop-color="#fdfbf4"/>
+      <stop offset="0.5" stop-color="#f2ecdd"/>
+      <stop offset="1" stop-color="#ddd4c0"/>
+    </linearGradient>
+    <linearGradient id="sand" x2="1" y2="0">
+      <stop stop-color="#f4eedf"/>
+      <stop offset="0.55" stop-color="#e8dfca"/>
+      <stop offset="1" stop-color="#cfc4ac"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop stop-color="#2d403a" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#2d403a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="420" cy="516" rx="270" ry="46" fill="url(#shadow)"/>
+  <g stroke="#b3a891" stroke-width="2">
+    <path d="M248 196h106l-20 292h-66z" fill="url(#cream)"/>
+    <ellipse cx="301" cy="196" rx="53" ry="16" fill="#f7f2e6"/>
+    <ellipse cx="301" cy="196" rx="24" ry="8" fill="#cdc3ae"/>
+    <path d="M252 236h99M255 272h93M258 308h88M261 344h83M264 380h77M267 416h72M270 452h66" stroke="#cfc5b0" stroke-width="3" fill="none"/>
+  </g>
+  <g stroke="#b3a891" stroke-width="2">
+    <path d="M424 238h92l-17 250h-58z" fill="url(#sand)"/>
+    <ellipse cx="470" cy="238" rx="46" ry="14" fill="#f3ecdc"/>
+    <ellipse cx="470" cy="238" rx="20" ry="7" fill="#c6bba4"/>
+    <path d="M428 276h85M431 310h79M434 344h74M437 378h69M440 412h63M443 446h57" stroke="#cec3ab" stroke-width="3" fill="none"/>
+  </g>
+  <g stroke="#b3a891" stroke-width="2">
+    <path d="M596 168h84l-15 258h-54z" fill="url(#cream)"/>
+    <ellipse cx="638" cy="168" rx="42" ry="13" fill="#f7f2e6"/>
+    <ellipse cx="638" cy="168" rx="18" ry="6" fill="#cdc3ae"/>
+    <path d="M600 206h77M603 242h72M606 278h67M609 314h62M612 350h57M615 386h51" stroke="#cfc5b0" stroke-width="3" fill="none"/>
+  </g>
+  <path d="M162 480c74 22 148 30 222 26s148-16 222-38" fill="none" stroke="#e5dcc8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 452c80 26 160 36 240 32s160-18 240-44" fill="none" stroke="#efe7d5" stroke-width="5" stroke-linecap="round"/>
+</svg>

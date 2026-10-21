@@ -30,7 +30,16 @@
     panel.querySelector("[data-product-name]").textContent = product.name;
     panel.querySelector("[data-product-id]").textContent = `Reference ${product.id}`;
     panel.querySelector("[data-product-description]").textContent = product.description;
-    panel.querySelector("[data-product-visual]").textContent = product.id;
+    const visual = panel.querySelector("[data-product-visual]");
+    if (product.image) {
+      const photo = document.createElement("img");
+      photo.src = product.image;
+      photo.alt = product.imageAlt || product.name;
+      photo.width = 800;
+      photo.height = 600;
+      photo.decoding = "async";
+      visual.replaceChildren(photo);
+    }
     const specs = panel.querySelector("[data-product-specifications]");
     appendDetail(specs, "Material", product.material);
     appendDetail(specs, "Illustrative minimum", `${product.moq.toLocaleString()} pieces`);

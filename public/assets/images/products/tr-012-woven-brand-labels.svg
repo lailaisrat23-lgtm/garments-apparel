@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Woven brand label set</title>
+  <desc id="desc">A flat-lay render of woven brand labels, a folded care label, and a kraft hang tag.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#efeae0"/>
+      <stop offset="1" stop-color="#ded5c5"/>
+    </linearGradient>
+    <linearGradient id="kraft" x2="1" y2="1">
+      <stop stop-color="#d8c3a0"/>
+      <stop offset="1" stop-color="#bfa681"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop stop-color="#2d403a" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2d403a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="470" rx="250" ry="60" fill="url(#shadow)"/>
+  <g transform="rotate(-8 330 300)">
+    <rect x="196" y="210" width="268" height="120" rx="8" fill="#f5f1e6" stroke="#bcb29c" stroke-width="3"/>
+    <path d="M196 240h268M196 300h268" stroke="#ddd4c1" stroke-width="2"/>
+    <path d="M196 210h268v14H196z" fill="#2f4a44"/>
+    <path d="M196 316h268v14H196z" fill="#2f4a44"/>
+    <path d="M248 262h164M262 288h136" stroke="#8d8574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M212 222h36M212 330h36" stroke="#f5f1e6" stroke-width="6"/>
+  </g>
+  <g transform="rotate(6 540 250)">
+    <rect x="452" y="160" width="180" height="96" rx="6" fill="#3f5b52" stroke="#2f4a44" stroke-width="3"/>
+    <path d="M474 196h136M486 220h112" stroke="#e6e0cf" stroke-width="5" stroke-linecap="round"/>
+    <path d="M470 172h20v10h-20zM596 172h20v10h-20z" fill="#e6e0cf"/>
+  </g>
+  <g transform="rotate(3 400 440)">
+    <rect x="262" y="368" width="276" height="132" rx="6" fill="url(#kraft)" stroke="#a68d69" stroke-width="3"/>
+    <circle cx="300" cy="396" r="9" fill="#efeae0" stroke="#a68d69" stroke-width="3"/>
+    <path d="M330 404h180M330 432h150M330 460h168" stroke="#8d7554" stroke-width="5" stroke-linecap="round"/>
+    <path d="M300 396l18-14" stroke="#8d7554" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="M196 520h408" stroke="#cdc3ae" stroke-width="4" stroke-linecap="round"/>
+</svg>

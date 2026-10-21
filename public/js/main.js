@@ -56,10 +56,22 @@
       card.className = "product-card";
       const image = document.createElement("div");
       image.className = "product-card__visual";
-      image.setAttribute("aria-hidden", "true");
       const code = document.createElement("span");
       code.textContent = product.id;
       image.append(code);
+      if (product.image) {
+        const photo = document.createElement("img");
+        photo.src = product.image;
+        photo.alt = product.imageAlt || product.name;
+        photo.width = 800;
+        photo.height = 600;
+        photo.loading = "lazy";
+        photo.decoding = "async";
+        photo.addEventListener("error", function () {
+          photo.remove();
+        });
+        image.append(photo);
+      }
       const body = document.createElement("div");
       body.className = "product-card__body";
       const category = document.createElement("p");

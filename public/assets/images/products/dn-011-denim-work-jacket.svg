@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Denim work jacket</title>
+  <desc id="desc">A flat-lay render of an indigo denim work jacket with chest flap pockets and metal buttons.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#e7ecef"/>
+      <stop offset="1" stop-color="#d2dade"/>
+    </linearGradient>
+    <linearGradient id="cloth" x2="1" y2="1">
+      <stop stop-color="#4a6485"/>
+      <stop offset="0.5" stop-color="#39516f"/>
+      <stop offset="1" stop-color="#283a54"/>
+    </linearGradient>
+    <radialGradient id="shadow">
+      <stop stop-color="#22303c" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#22303c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="508" rx="242" ry="50" fill="url(#shadow)"/>
+  <path d="M400 164c30 0 50 30 76 36l82 38 56 116-76 36-34-56v152c-70 20-138 20-208 0V334l-34 56-76-36 56-116 82-38c26-6 46-36 76-36z"
+        fill="url(#cloth)" stroke="#22344c" stroke-width="3"/>
+  <path d="M400 168l-44 40 44 50 44-50z" fill="#41607f" stroke="#22344c" stroke-width="3"/>
+  <path d="M356 208l-40-30-20 46 60 22zM444 208l40-30 20 46-60 22z" fill="#4b6c8c" stroke="#22344c" stroke-width="3"/>
+  <path d="M390 258h20v214h-20z" fill="#41607f" stroke="#22344c" stroke-width="3"/>
+  <g fill="#c9b48c" stroke="#22344c" stroke-width="2">
+    <circle cx="400" cy="292" r="6"/><circle cx="400" cy="340" r="6"/>
+    <circle cx="400" cy="388" r="6"/><circle cx="400" cy="436" r="6"/>
+  </g>
+  <path d="M266 306h104v86H266zM430 306h104v86H430z" fill="#3f5c7c" stroke="#22344c" stroke-width="3"/>
+  <path d="M266 332h104M430 332h104" stroke="#22344c" stroke-width="3"/>
+  <path d="M266 392h104M430 392h104" stroke="#c9a06a" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M318 232v236M482 232v236" fill="none" stroke="#c9a06a" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M310 474c60 16 120 16 180 0" stroke="#c9a06a" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+  <path d="M252 470h-44v-26M548 470h44v-26" fill="none" stroke="#c9a06a" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M246 350h-32M586 350h-32" stroke="#8ba3bf" stroke-width="2" opacity=".4"/>
+</svg>

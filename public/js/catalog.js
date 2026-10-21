@@ -49,10 +49,22 @@
         card.className = "product-card";
         const visual = document.createElement("div");
         visual.className = "product-card__visual";
-        visual.setAttribute("aria-hidden", "true");
         const reference = document.createElement("span");
         reference.textContent = product.id;
         visual.append(reference);
+        if (product.image) {
+          const photo = document.createElement("img");
+          photo.src = product.image;
+          photo.alt = product.imageAlt || product.name;
+          photo.width = 800;
+          photo.height = 600;
+          photo.loading = "lazy";
+          photo.decoding = "async";
+          photo.addEventListener("error", function () {
+            photo.remove();
+          });
+          visual.append(photo);
+        }
         const body = document.createElement("div");
         body.className = "product-card__body";
         const eyebrow = document.createElement("p");
